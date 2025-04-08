@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">알람</string>
+    <string name="onetime_alarm">1회성 알람 등록</string>
+    <string name="cancel_alarm">알람 등록 취소</string>
+    <string name="register_multi">반복알람 등록</string>
+</resources>

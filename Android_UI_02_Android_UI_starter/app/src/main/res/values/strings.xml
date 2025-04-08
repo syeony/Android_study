@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Android_UI</string>
+    <string name="edit">print edit text</string>
+    <string name="button">button</string>
+    <string name="edittext">EditText</string>
+    <string name="imageview">ImageView</string>
+    <string name="listview">ListView</string>
+    <string name="fontactivity">FontActivity</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="linearlayout2">LinearLayout2</string>
+    <string name="relativelayout">RelativeLayout</string>
+    <string name="framelayoutactivity">FrameLayoutActivity</string>
+    <string name="tablelayout">TableLayout</string>
+    <string name="tablelayoutacitivity">TableLayoutAcitivity</string>
+    <string name="gridlayout">GridLayout</string>
+    <string name="pos">seq: %1$d</string>
+    <string name="hello">Hello</string>
+    <string name="btn1">btn1</string>
+    <string name="btn2">btn2</string>
+    <string name="name">Hong</string>
+    <string name="hello_message">Hello. How are you?</string>
+    <string name="yymmdd">24.07.26</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/example_item"
+        android:title="안녕 메뉴아이템" />
+    <group android:id="@+id/example_group">
+        <item
+            android:id="@+id/example_item2"
+            android:title="그룹 내부 아이템 1" />
+        <item
+            android:id="@+id/example_item3"
+            android:title="그룹 내부 아이템 2" />
+    </group>
+    <item android:id="@+id/example_submenu" android:title="상위 메뉴">
+        <menu>
+            <item android:id="@+id/item_exit" android:title="종료" />
+        </menu>
+    </item>
+</menu>

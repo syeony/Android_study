@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">broadcast receiver</string>
+    <string name="dynamic_receiver_menifest">정적리시버 - Manifest에 등록완료</string>
+  <string name="dynamic_receiver">동적리시버 구현</string>
+  <string name="userdefine_broadcast">사용자정의 Broadcast</string>
+  <string name="broadcast_with_permission">사용자정의 Broadcast with permission</string>
+</resources>

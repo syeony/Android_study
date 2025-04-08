@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Banking2Account">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:text="현재 잔액은 OO입니다."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btnOtherApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnTransfer"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@+id/btnWeb"
+        android:text="다른앱"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <Button
+        android:id="@+id/btnTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:text="계좌이체"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnWeb"
+        app:layout_constraintStart_toEndOf="@+id/btnWeb" />
+
+    <Button
+        android:id="@+id/btnAccountInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnTransfer"
+        android:layout_marginStart="8dp"
+        android:layout_toStartOf="@+id/btnTransfer"
+        android:text="계좌조회"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnTransfer"
+        app:layout_constraintStart_toEndOf="@+id/btnTransfer" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAccountInfo2"
+        android:layout_marginStart="8dp"
+        android:layout_toStartOf="@+id/btnAccountInfo2"
+        android:text="웹 서핑"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnOtherApp"
+        app:layout_constraintStart_toEndOf="@+id/btnOtherApp" />
+
+
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOtherApp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTransfer"
+        tools:text="현재시각: " />
+</androidx.constraintlayout.widget.ConstraintLayout>

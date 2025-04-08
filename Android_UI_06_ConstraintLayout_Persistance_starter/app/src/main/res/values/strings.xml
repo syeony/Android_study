@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Constaint_n_Persistance</string>
+    <string name="box_one">Box One</string>
+    <string name="box_two">Box Two</string>
+    <string name="box_three">Box Three</string>
+    <string name="box_four">Box Four</string>
+    <string name="box_five">Box Five</string>
+    <string name="how_to_play">How to play:</string>
+    <string name="tap_the_boxes_and_buttons">Tap the screen and buttons.</string>
+
+    <string name="button_red">RED</string>
+    <string name="button_yellow">YELLOW</string>
+    <string name="button_green">GREEN</string>
+    <string name="mainactivity">MainActivity</string>
+    <string name="preferences">Preferences</string>
+    <string name="file">File</string>
+    <string name="sqlite_database">SQLite Database</string>
+    <string name="create">create</string>
+    <string name="update">update</string>
+    <string name="delete">dalete</string>
+    <string name="retrieve">select</string>
+    <string name="list">List</string>
+    <string name="result">TextView</string>
+</resources>

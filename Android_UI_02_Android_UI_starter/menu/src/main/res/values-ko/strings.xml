@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">메뉴</string>
+    <string name="msg">메뉴 선택 : %1$s</string>
+    <string name="call_context_menu">컨텍스트메뉴 호출</string>
+    <string name="call_popup_menu">팝업 메뉴 호출</string>
+    <string name="red">빨강</string>
+    <string name="blue">파랑</string>
+    <string name="green">녹색</string>
+    <string name="menu_1">메뉴1</string>
+    <string name="menu_2">메뉴2</string>
+    <string name="menu_3">메뉴3</string>
+</resources>

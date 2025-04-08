@@ -1,0 +1,6 @@
+<resources>
+  <string name="app_name">alram</string>
+  <string name="onetime_alarm">register one time alarm</string>
+  <string name="cancel_alarm">cancel alarm</string>
+  <string name="register_multi">register multi alarm</string>
+</resources>

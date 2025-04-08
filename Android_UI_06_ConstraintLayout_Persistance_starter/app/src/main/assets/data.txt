@@ -1,0 +1,2 @@
+assets 경로에 저장된 파일을 읽어오자.
+getAssets를 통해 inputStream을 얻을 수 있다.

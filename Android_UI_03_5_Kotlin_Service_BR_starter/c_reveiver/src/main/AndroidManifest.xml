@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 사용자 정의 permission 선언 -->
+    <permission
+        android:name="com.ssafy.android.news.funny.PRIVATE"
+        android:protectionLevel="signature" /> <!-- permission 사용 선언 -->
+    <uses-permission android:name="com.ssafy.android.news.funny.PRIVATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Receiver">
+
+        <activity android:name=".StartActivity" android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".BroadcastActivity" />
+        <activity android:name=".MainActivity2" />
+
+        <receiver android:name=".LocaleChangeReceiver" android:exported="false">
+            <intent-filter>
+                <!-- 로케일 변경에 대한 시스템 broadcast 수신 -->
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".SSAFYNewsReceiver" android:enabled="true"  android:exported="false" >
+            <intent-filter>
+                <!-- 사용자 정의 broadcast 수신 -->
+                <action android:name="example.MY" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".SSAFYNewsReceiver2"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.ssafy.android.news.funny.PRIVATE">
+            <intent-filter>
+                <!-- 사용자 정의 broadcast 수신 -->
+                <action android:name="com.ssafy.android.news.funny" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+</manifest>

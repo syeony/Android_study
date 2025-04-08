@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">menu</string>
+    <string name="msg">Hello Menu, %1$s</string>
+    <string name="call_context_menu">Call Context Menu</string>
+    <string name="call_popup_menu">Call Popup Menu</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="menu_1">Menu1</string>
+    <string name="menu_2">Menu2</string>
+    <string name="menu_3">Menu3</string>
+</resources>

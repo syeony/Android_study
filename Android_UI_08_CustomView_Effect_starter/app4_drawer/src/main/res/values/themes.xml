@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android_UI_08_CustomView_Effect_starter" parent="Theme.Material3.DayNight">
+        <item name="toolbarStyle">@style/Theme.Custom.Toolbar</item>
+    </style>
+
+    <style name="Theme.Custom.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">#B18FEB</item>
+    </style>
+
+    <style name="Theme.Android_UI_08_CustomView_Effect_starter" parent="Base.Theme.Android_UI_08_CustomView_Effect_starter" />
+</resources>

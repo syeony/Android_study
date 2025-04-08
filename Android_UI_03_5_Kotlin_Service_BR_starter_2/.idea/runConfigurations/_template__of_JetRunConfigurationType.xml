@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="JetRunConfigurationType" singleton="false">
+    <module name="Android_UI_03_5_Kotlin_Service_BR_starter" />
+    <shortenClasspath name="NONE" />
+    <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8 -classpath C:\Users\SSAFY\AppData\Local\Android\Sdk\platforms\android-34\android.jar" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
