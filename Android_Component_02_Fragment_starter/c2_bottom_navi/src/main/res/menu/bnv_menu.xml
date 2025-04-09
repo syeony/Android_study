@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="홈" android:id="@+id/action_1"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+
+    <item android:title="타임라인"
+        android:id="@+id/action_2"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24">
+    </item>
+    <item android:title="채팅" android:id="@+id/action_3"
+        android:icon="@drawable/ic_baseline_chat_24">
+    </item>
+
+    <item android:title="설정"
+        android:id="@+id/action_4"
+        android:icon="@drawable/outline_done_black">
+    </item>
+</menu>
