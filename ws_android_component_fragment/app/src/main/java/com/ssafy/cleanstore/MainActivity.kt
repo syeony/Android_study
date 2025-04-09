@@ -1,12 +1,8 @@
 package com.ssafy.cleanstore
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.ssafy.cleanstore.databinding.ActivityMainBinding
 import com.ssafy.cleanstore.dto.Stuff
 import com.ssafy.cleanstore.fragment.MainFragment
