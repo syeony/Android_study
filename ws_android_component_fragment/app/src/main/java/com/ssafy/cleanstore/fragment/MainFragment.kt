@@ -36,7 +36,7 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.one.setOnClickListener {
-            isBottomNavVisible = !isBottomNavVisible // 상태 반전
+            isBottomNavVisible = !isBottomNavVisible
             myActivity.toggleBottomNavigationView(isBottomNavVisible)
         }
     }
