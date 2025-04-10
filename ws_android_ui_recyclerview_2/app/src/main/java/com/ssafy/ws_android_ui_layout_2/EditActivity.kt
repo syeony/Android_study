@@ -1,6 +1,9 @@
 package com.ssafy.ws_android_ui_layout_2
 
+import android.annotation.SuppressLint
 import android.app.Activity
+import android.app.AlarmManager
+import android.app.PendingIntent
 import android.content.ContentValues
 import android.content.Intent
 import android.os.Bundle
@@ -12,6 +15,8 @@ import com.ssafy.ws_android_ui_layout_2.databinding.ActivityEditBinding
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import android.content.Context
+import android.os.SystemClock
 
 // EditActivity
 private const val TAG = "AlarmReceiver_싸피"
@@ -21,11 +26,14 @@ class EditActivity : AppCompatActivity() {
     private lateinit var dbActions: MemoDBActions
 
     private lateinit var binding: ActivityEditBinding
+    private lateinit var alarmManager: AlarmManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityEditBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
 
         // helper인스턴스 생성
         memoDBHelper = MemoDBHelper(this, "newdb.db", null, 1)
@@ -80,6 +88,9 @@ class EditActivity : AppCompatActivity() {
                     putExtra("thirtyMinAlarm", thirtyMinChecked)
                 }
                 Log.d(TAG, "initEvent: $newId")
+
+                setAlarms(newId, tenMinChecked, thirtyMinChecked)
+
                 setResult(Activity.RESULT_OK, intent)
                 finish()
             } else {
@@ -114,5 +125,57 @@ class EditActivity : AppCompatActivity() {
     private fun getCurrentDate(): String {
         val sdf = SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault())
         return sdf.format(Date())
+    }
+
+    private fun setAlarms(position: Int, tenMinAlarm: Boolean, thirtyMinAlarm: Boolean) {
+        Log.d(TAG, "setAlarms: $position")
+        if (position == -1) return
+//        val memo = MemoItemMgr.search(position)
+        val memo = dbActions.selectMemo(position)
+
+        if (tenMinAlarm){
+            if (memo != null) {
+                registerAlarm(position, 10, memo.content)
+            }
+        } else {
+            cancelAlarm(position, 10)
+        }
+
+        if (thirtyMinAlarm){
+            if (memo != null) {
+                registerAlarm(position, 30, memo.content)
+            }
+        } else {
+            cancelAlarm(position, 30)
+        }
+    }
+
+    private fun registerAlarm(position: Int, minutes: Int, content: String) {
+        val intent = Intent(this, MemoReceiver::class.java).apply {
+            putExtra("position", position)
+            putExtra("content", content)
+        }
+        val pendingIntent = PendingIntent.getBroadcast(
+            this,
+            position + minutes,
+            intent,
+            PendingIntent.FLAG_MUTABLE
+        )
+        val triggerTime = SystemClock.elapsedRealtime() + 3000 //minutes * 60 * 1000
+        alarmManager.set(AlarmManager.ELAPSED_REALTIME, triggerTime, pendingIntent)
+        Log.d(TAG, "$minutes 분 후 알람이 등록되었습니다.")
+    }
+
+    private fun cancelAlarm(position: Int, minutes: Int) {
+        val intent = Intent(this, MemoReceiver::class.java)
+        val pendingIntent = PendingIntent.getBroadcast(
+            this,
+            position + minutes,
+            intent,
+            PendingIntent.FLAG_MUTABLE
+        )
+        alarmManager.cancel(pendingIntent)
+        pendingIntent.cancel()
+        Log.d(TAG, "$minutes 분 후 알람이 취소되었습니다.")
     }
 }
