@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/img"
+        app:layout_constraintStart_toEndOf="@id/img"
+        app:layout_constraintBottom_toTopOf="@id/tel"
+        tools:text="이름"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/img"
+        app:layout_constraintStart_toStartOf="@id/name"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        tools:text="010-1111-7452"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/img"
+        app:layout_constraintStart_toStartOf="@id/tel"
+        app:layout_constraintTop_toBottomOf="@id/tel"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        tools:text="fltkfltk1004@naver.com"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

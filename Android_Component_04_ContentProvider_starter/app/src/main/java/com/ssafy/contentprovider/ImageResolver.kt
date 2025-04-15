@@ -111,7 +111,7 @@ class ImageResolver : AppCompatActivity() {
                 putStringArray(ContentResolver.QUERY_ARG_SORT_COLUMNS,  arrayOf(MediaStore.Images.ImageColumns.DATE_TAKEN))
                 putInt(ContentResolver.QUERY_ARG_SORT_DIRECTION, ContentResolver.QUERY_SORT_DIRECTION_DESCENDING)
                 putInt(ContentResolver.QUERY_ARG_OFFSET, 0)
-                putInt(ContentResolver.QUERY_ARG_LIMIT, 2)
+                putInt(ContentResolver.QUERY_ARG_LIMIT, 3)
             }
 
             return resolver.query(queryUri, what, bundle, null)

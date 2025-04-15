@@ -6,6 +6,7 @@ import android.database.Cursor
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.util.Log
+import android.widget.CursorAdapter.FLAG_REGISTER_CONTENT_OBSERVER
 import android.widget.ListView
 import android.widget.SimpleCursorAdapter
 import androidx.appcompat.app.AppCompatActivity
@@ -59,8 +60,8 @@ class SimpleCursorAdapterActivity : AppCompatActivity() {
             cursor!!,
             from,
             to,
-            FLAG_AUTO_REQUERY // 변경시 자동 재쿼리. DEPRECATED 됨.
-//            FLAG_REGISTER_CONTENT_OBSERVER
+//            FLAG_AUTO_REQUERY // 변경시 자동 재쿼리. DEPRECATED 됨.
+            FLAG_REGISTER_CONTENT_OBSERVER
         )
         listview.adapter = adapter1
     }

@@ -32,7 +32,7 @@ class SimpleResolverActivity : AppCompatActivity() {
     }
 
     private fun checkPermission(){
-
+//        init()
         /** permission check **/
         if (!checker.checkPermission(this, runtimePermissions)) {
             checker.setOnGrantedListener { //퍼미션 획득 성공일때
@@ -57,11 +57,18 @@ class SimpleResolverActivity : AppCompatActivity() {
 
         Log.d(TAG, "init: ${contactsURI}")
 
-//        val URI = contactsURI
-        val URI = ContentUris.withAppendedId(contactsURI, "1".toLong())
+        val URI = contactsURI
+//        val URI = ContentUris.withAppendedId(contactsURI, "1".toLong())
         //        val URI = Uri.parse(ContactsContract.Contacts.CONTENT_URI.toString()+"/1")
 
-
+        contentResolver.query(URI, null, null, null, null)?.use{
+            Log.d(TAG, "init: ${it.count}, ${it.columnCount}")
+            while(it.moveToNext()){
+                for(i in 0..it.columnCount-1){
+                    Log.d(TAG, "column.$i: ${it.getColumnName(i)}, value: ${it.getString(i)}")
+                }
+            }
+        }
 
 
 

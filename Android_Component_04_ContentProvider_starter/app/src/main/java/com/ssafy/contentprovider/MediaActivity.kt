@@ -1,6 +1,8 @@
 package com.ssafy.contentprovider
 
 import android.Manifest
+import android.content.ContentUris
+import android.content.Intent
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
@@ -65,8 +67,12 @@ class MediaActivity :AppCompatActivity() {
             if(it.moveToFirst()){
                 do{
                     // getLong, getString으로 칼럼들을 읽는다.
+                    val id=it.getLong(0)
+                    val albumId=it.getLong(1)
+                    val title=it.getString(it.getColumnIndexOrThrow(MediaStore.Audio.Media.TITLE))//2
+                    val artist = it.getString(3)
 
-
+                    musicList.add(MusicDto(id, albumId,title,artist))
                     //Dto로 생성하고, musicList에 담는다.
 
                 }while(it.moveToNext())
@@ -77,7 +83,8 @@ class MediaActivity :AppCompatActivity() {
 
     private fun getAudio(): Cursor {
         val resolver = contentResolver
-        val queryUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
+        val queryUri = MediaStore.Audio.Media.INTERNAL_CONTENT_URI
+//        val queryUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
 
         //정렬
         val sortOrder = MediaStore.Audio.Media.TITLE + " ASC";
@@ -96,7 +103,7 @@ class MediaActivity :AppCompatActivity() {
 
     inner class MusicAdapter(val musicList:MutableList<MusicDto>): RecyclerView.Adapter<MusicAdapter.MusicViewHolder>() {
 
-        var uri: Uri = Audio.Media.EXTERNAL_CONTENT_URI
+        var uri: Uri = Audio.Media.INTERNAL_CONTENT_URI
 
         inner class MusicViewHolder(itemView:View):RecyclerView.ViewHolder(itemView) {
             var title = itemView.findViewById<TextView>(R.id.name)
@@ -112,9 +119,10 @@ class MediaActivity :AppCompatActivity() {
             return MusicViewHolder(view).apply {
                 itemView.setOnClickListener{
                     Toast.makeText(parent.context, "musicList.id:${layoutPosition}", Toast.LENGTH_SHORT).show()
-//                    val u: Uri = ContentUris.withAppendedId(uri, musicList[layoutPosition].id)
-//                    val intent = Intent(Intent.ACTION_VIEW, u)
-//                    this@MediaActivity.startActivity(intent)
+
+                    val u: Uri = ContentUris.withAppendedId(uri, musicList[layoutPosition].id) // internal/1
+                    val intent = Intent(Intent.ACTION_VIEW, u)
+                    this@MediaActivity.startActivity(intent)
                 }
             }
         }

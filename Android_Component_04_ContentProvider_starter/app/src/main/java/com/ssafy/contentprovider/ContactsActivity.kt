@@ -33,6 +33,7 @@ class ContactsActivity : AppCompatActivity() {
         title = "Contacts"
 
         checkPermission()
+
     }
 
     private fun checkPermission(){

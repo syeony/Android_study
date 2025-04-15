@@ -25,10 +25,13 @@
                 android:layout_height="wrap_content"
                 android:text="Hello World!" />
 
+<!-- android scaletype 구글링하면 이미지 다양한 크기로 저장할 수 있다-->
             <ImageView
                 android:id="@+id/imageView_1"
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/backgrounds/scenic[3]"/>
 
             <TextView
                 android:id="@+id/textView_2"
@@ -38,8 +41,10 @@
 
             <ImageView
                 android:id="@+id/imageView_2"
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/backgrounds/scenic[2]"/>
 
             <TextView
                 android:id="@+id/textView_3"
@@ -49,8 +54,10 @@
 
             <ImageView
                 android:id="@+id/imageView_3"
+                android:adjustViewBounds="true"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/backgrounds/scenic[1]"/>
 
         </LinearLayout>
 

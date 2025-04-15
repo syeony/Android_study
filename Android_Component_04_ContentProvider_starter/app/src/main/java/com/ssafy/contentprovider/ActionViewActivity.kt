@@ -16,7 +16,12 @@ class ActionViewActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button_0).text = "연락처 보기"
         findViewById<Button>(R.id.button_0).setOnClickListener{
-            val intent = Intent()
+            val intent = Intent().apply {
+                action = Intent.ACTION_VIEW
+                data=ContactsContract.Contacts.CONTENT_URI
+            }
+//            intent.action = Intent.ACTION_VIEW
+//            intent.data=Uri.parse("content://com.android.contacts/contacts")
 
 
             startActivity(intent)
@@ -24,7 +29,10 @@ class ActionViewActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button_1).text = "연락처 1번 보기"
         findViewById<Button>(R.id.button_1).setOnClickListener{
-            val intent = Intent()
+            val intent = Intent().apply {
+                action = Intent.ACTION_VIEW
+                data=Uri.parse("content://com.android.contacts/contacts/1")
+            }
 
 
             startActivity(intent)
@@ -32,7 +40,10 @@ class ActionViewActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button_2).text = "연락처 등록"
         findViewById<Button>(R.id.button_2).setOnClickListener{
-            val intent = Intent()
+            val intent = Intent().apply {
+                action = Intent.ACTION_INSERT
+                data=ContactsContract.Contacts.CONTENT_URI
+            }
 
 
             startActivity(intent)
@@ -40,7 +51,10 @@ class ActionViewActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button_3).text = "1번 연락처 수정"
         findViewById<Button>(R.id.button_3).setOnClickListener{
-            val intent = Intent()
+            val intent = Intent().apply {
+                action = Intent.ACTION_EDIT
+                data=Uri.parse("content://com.android.contacts/contacts/1")
+            }
 
 
             startActivity(intent)
@@ -49,7 +63,10 @@ class ActionViewActivity : AppCompatActivity() {
         //ACTION_CALL: 전화걸기 permission필요함.
         findViewById<Button>(R.id.button_4).text = "특정 번호 전화연결"
         findViewById<Button>(R.id.button_4).setOnClickListener{
-            val intent = Intent()
+            val intent = Intent().apply {
+                action = Intent.ACTION_DIAL
+                data=Uri.parse("tel:123")
+            }
 
 
             startActivity(intent)
