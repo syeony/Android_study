@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ContentProvider</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_show_text1_label">Show Text1</string>
+    <string name="pref_show_text1_key" translatable="false">show_text1</string>
+    <string name="pref_show_text2_label">Show Text2</string>
+    <string name="pref_show_text2_key" translatable="false">show_text2</string>
+    <string name="pref_show_true">Shown</string>
+    <string name="pref_show_false">Hidden</string>
+</resources>
