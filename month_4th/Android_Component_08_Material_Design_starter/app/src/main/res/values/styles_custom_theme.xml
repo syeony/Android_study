@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/my_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+<!--    <style name="MyEditTextStyle" parent="Widget.AppCompat.EditText">-->
+<!--        <item name="android:hint">Please input...</item>-->
+<!--        <item name="android:textSize">20sp</item>-->
+<!--        <item name="android:textColor">@color/selector_edit_text</item>-->
+<!--    </style>-->
+
+    <style name="MyEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:hint">Please input...</item>
+        <item name="android:textSize">@dimen/textSize_20</item>
+        <item name="android:textColor">@color/edittext_default</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/my_text_color</item>
+        <item name="android:textSize">@dimen/textSize_20</item>
+        <item name="android:backgroundTint">@color/my_button_background_tint</item>
+    </style>
+
+    <style name="CustomButtonStyle3" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/my_text_color</item>
+        <item name="android:textSize">@dimen/textSize_20</item>
+        <item name="android:backgroundTint">@color/my_button_background_tint</item>
+    </style>
+
+
+</resources>

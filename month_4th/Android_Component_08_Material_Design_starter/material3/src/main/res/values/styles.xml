@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2019 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+  <style name="Widget.Catalog.Toolbar" parent="Widget.Material3.Toolbar.OnSurface" />
+
+  <style name="Widget.Catalog.Toolbar.WithCloseButton">
+    <item name="navigationContentDescription">@string/toolbar_navigation_close_description</item>
+    <item name="navigationIcon">@drawable/ic_close_vd_theme_24px</item>
+  </style>
+
+  <style name="selectableTextView" parent="@android:style/Widget.TextView">
+    <item name="android:textSize">20sp</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:clickable">true</item>
+    <item name="android:paddingLeft">8dp</item>
+    <item name="android:drawablePadding">8dp</item>
+    <item name="android:background">?attr/selectableItemBackground</item>
+  </style>
+
+  <style name="ThemeOverlay.Catalog.MaterialCalendar.Custom" parent="@style/ThemeOverlay.Material3.MaterialCalendar">
+    <item name="colorPrimary">?attr/colorSecondary</item>
+    <item name="colorOnPrimary">?attr/colorOnSecondary</item>
+    <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+  </style>
+
+  <style name="ThemeOverlay.Catalog.MaterialCalendar.WithDescription" parent="@style/ThemeOverlay.Material3.MaterialCalendar">
+    <item name="materialCalendarHeaderLayout">@style/Widget.Catalog.MaterialCalendar.HeaderLayout.WithDescription</item>
+    <item name="materialCalendarHeaderTitle">@style/Widget.Catalog.MaterialCalendar.HeaderTitle.WithDescription</item>
+    <item name="materialCalendarHeaderSelection">@style/Widget.Catalog.MaterialCalendar.HeaderSelection.WithDescription</item>
+  </style>
+
+  <style name="Widget.Catalog.MaterialCalendar.HeaderLayout.WithDescription" parent="@style/Widget.Material3.MaterialCalendar.HeaderLayout">
+    <item name="android:layout_height">168dp</item>
+  </style>
+
+  <style name="Widget.Catalog.MaterialCalendar.HeaderTitle.WithDescription" parent="@style/Widget.Material3.MaterialCalendar.HeaderTitle">
+    <item name="android:maxLines">5</item>
+    <item name="autoSizeTextType">none</item>
+  </style>
+
+  <style name="Widget.Catalog.MaterialCalendar.HeaderSelection.WithDescription" parent="@style/Widget.Material3.MaterialCalendar.HeaderSelection">
+    <item name="android:layout_gravity">bottom|start</item>
+    <item name="android:layout_marginBottom">12dp</item>
+  </style>
+
+
+  <style name="ShapeAppearanceImageLeft" parent="">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">16dp</item>
+
+    <item name="cornerSizeTopRight">0dp</item>
+    <item name="cornerSizeBottomRight">0dp</item>
+
+  </style>
+
+  <style name="ShapeAppearanceImageRight" parent="">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">32dp</item>
+
+    <item name="cornerSizeTopLeft">0dp</item>
+    <item name="cornerSizeBottomLeft">0dp</item>
+  </style>
+
+  <!-- ######## shaping themeing -->
+  <style name="ThemeOverlay.Baseline" parent=""/>
+
+  <!-- Shrine -->
+
+  <style name="Widget.Shrine.Chip" parent="Widget.Material3.Chip.Filter">
+    <item name="chipCornerRadius">@null</item>
+    <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Shrine.Chip</item>
+  </style>
+
+  <style name="ShapeAppearanceOverlay.Shrine.Chip" parent="">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">4dp</item>
+  </style>
+
+  <style name="Widget.Shrine.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox"/>
+
+  <style name="Theme.Shrine.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/Widget.Shrine.BottomSheet.Modal</item>
+  </style>
+
+  <style name="Widget.Shrine.BottomSheet.Modal" parent="Widget.Material3.BottomSheet.Modal">
+    <item name="android:background">?android:attr/colorBackground</item>
+    <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Shrine.BottomSheet</item>
+    <item name="backgroundTint">?attr/colorPrimary</item>
+  </style>
+
+  <style name="ShapeAppearanceOverlay.Shrine.BottomSheet" parent="">
+    <item name="cornerSize">0dp</item>
+    <item name="cornerFamilyTopRight">cut</item>
+    <item name="cornerSizeTopRight">24dp</item>
+  </style>
+
+  <!-- Fortnightly -->
+
+  <style name="Widget.Fortnightly.Chip" parent="Widget.Material3.Chip.Filter">
+    <item name="shapeAppearanceOverlay">@null</item>
+    <item name="chipCornerRadius">@null</item>
+  </style>
+
+  <style name="Widget.Fortnightly.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox"/>
+
+  <style name="Theme.Fortnightly.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/Widget.Fortnightly.BottomSheet.Modal</item>
+  </style>
+
+  <style name="Widget.Fortnightly.BottomSheet.Modal" parent="Widget.Material3.BottomSheet.Modal">
+    <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Fortnightly.BottomSheet</item>
+    <item name="backgroundTint">?attr/colorPrimary</item>
+  </style>
+
+  <style name="ShapeAppearanceOverlay.Fortnightly.BottomSheet" parent="">
+    <item name="cornerSizeTopRight">0dp</item>
+    <item name="cornerSizeTopLeft">0dp</item>
+    <item name="cornerFamilyTopLeft">cut</item>
+    <item name="cornerFamilyTopRight">cut</item>
+  </style>
+
+  <!-- Crane -->
+
+  <style name="Widget.Crane.Chip" parent="Widget.Material3.Chip.Filter">
+    <item name="shapeAppearanceOverlay">@null</item>
+    <item name="chipCornerRadius">@null</item>
+  </style>
+
+  <style name="Widget.Crane.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox"/>
+
+  <style name="Theme.Crane.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/Widget.Crane.BottomSheet.Modal</item>
+  </style>
+
+  <style name="Widget.Crane.BottomSheet.Modal" parent="Widget.Material3.BottomSheet.Modal">
+    <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Crane.BottomSheet</item>
+    <item name="backgroundTint">?attr/colorPrimary</item>
+  </style>
+
+  <style name="ShapeAppearanceOverlay.Crane.BottomSheet" parent="">
+    <item name="cornerSizeTopRight">20dp</item>
+    <item name="cornerSizeTopLeft">20dp</item>
+    <item name="cornerFamilyTopLeft">rounded</item>
+    <item name="cornerFamilyTopRight">rounded</item>
+  </style>
+
+<!-- ######## shaping themeing -->
+
+
+
+
+</resources>

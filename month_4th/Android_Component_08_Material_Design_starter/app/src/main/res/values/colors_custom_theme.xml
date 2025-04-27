@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- EditText color -->
+    <color name="edittext_default">#0909D7</color>
+    <color name="edittext_default_bg">#FF0000</color>
+
+    <color name="edittext_unfocused">#7E7EED</color>
+    <color name="edittext_unfocused_bg">#F2F2FF</color>
+
+</resources>

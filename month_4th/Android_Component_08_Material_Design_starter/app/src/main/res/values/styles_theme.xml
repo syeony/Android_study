@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle" parent="android:Widget.TextView">
+<!--    or <style name="MyTextStyle" parent="Widget.AppCompat.TextView">--> <!-- AppCompat은 "android:" 을 사용하지 않음.  -->
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+</resources>

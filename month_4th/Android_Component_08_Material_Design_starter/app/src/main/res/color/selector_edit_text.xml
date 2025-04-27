@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- edit text selector-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/edittext_unfocused" android:state_focused="false" />
+    <item android:color="@color/edittext_default"/>
+</selector>

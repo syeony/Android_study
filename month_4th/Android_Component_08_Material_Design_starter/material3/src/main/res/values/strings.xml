@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toolbar_navigation_close_description">Close</string>
+
+    <string name="app_name">MaterialDesign</string>
+
+
+    <string name="cat_toc_buttons">Buttons</string>
+    <string name="cat_buttons_toggle_group">Buttons Toggle Group</string>
+    <string name="cat_buttons_title">Buttons</string>
+    <string name="cat_buttons_description">
+    Buttons communicate the action that will occur when the user touches them.
+    They may display text, imagery, or both.
+    Flat buttons and raised buttons are the most commonly used types.
+  </string>
+    <string name="cat_button_label_enabled">Enabled</string>
+    <string name="cat_button_label_disabled">Disabled</string>
+    <string name="cat_button_icon_btn_text">Icon only button</string>
+    <string name="cat_btn_text">Material button</string>
+    <string name="cat_unelevated_btn_text">Unelevated button</string>
+    <string name="cat_text_btn_text">Text button</string>
+    <string name="cat_stroked_btn_text">Stroked button</string>
+    <string name="cat_icon_btn_text">Icon button</string>
+    <string name="cat_icon_text_btn_text">Icon text button</string>
+    <string name="cat_filled_buttons_section_title">Filled buttons</string>
+    <string name="cat_outlined_btn_text">Outlined buttons</string>
+    <string name="cat_outlined_icon_btn_text">Icon only buttons</string>
+
+    <string name="cat_icon_btn_default_style">Standard</string>
+    <string name="cat_standard_icon_btn_desc" description="Description for standard icon only button. [CHAR LIMIT=NONE]">Standard Icon</string>
+    <string name="cat_icon_btn_filled_style">Filled</string>
+    <string name="cat_filled_icon_btn_desc" description="Description for filled icon only button. [CHAR LIMIT=NONE]">Filled Icon</string>
+    <string name="cat_icon_btn_filled_tonal_style">Tonal</string>
+    <string name="cat_filled_tonal_icon_btn_desc" description="Description for filled tonal icon only button. [CHAR LIMIT=NONE]">Tonal Icon</string>
+    <string name="cat_icon_btn_outlined_style">Outlined</string>
+    <string name="cat_outlined_icon_btn_desc" description="Description for outlined icon only button. [CHAR LIMIT=NONE]">Outlined Icon</string>
+    <string name="cat_button_label_toggleable_icon_buttons" description="A label for Toggleable Icon Buttons switch. [CHAR LIMIT=NONE]">Toggleable Icon Buttons</string>
+    <string name="cat_button_clicked">Button clicked</string>
+    <string name="cat_snackbar_action_button_text">Done</string>
+
+    <string name="cat_single_select">Single-select</string>
+    <string name="cat_single_select2">Single-select with orientation</string>
+    <string name="cat_multi_select">Multi-select</string>
+    <string name="cat_icon_only">Icon only</string>
+    <string name="cat_button_label_private">Private</string>
+    <string name="cat_button_label_team">Team</string>
+    <string name="cat_button_label_everyone">Everyone</string>
+    <string name="cat_button_label_custom">Custom</string>
+    <string name="cat_button_label_cheese">Cheese</string>
+    <string name="cat_button_label_tomatoes">Tomatoes</string>
+    <string name="cat_button_label_mushrooms">Mushrooms</string>
+    <string name="cat_icon_button_label_paint_bucket" description="A label for an icon-only button [CHAR LIMIT=NONE]">Paint bucket icon</string>
+    <string name="cat_icon_button_label_plus" description="A label for an icon-only button [CHAR LIMIT=NONE]">Plus icon</string>
+    <string name="cat_icon_button_label_components" description="A label for an icon-only button [CHAR LIMIT=NONE]">Components icon</string>
+    <string name="cat_icon_button_label_accelerator" description="A label for an icon-only button [CHAR LIMIT=NONE]">Accelerator icon</string>
+    <string name="cat_icon_button_label_dialog" description="A label for an icon-only button [CHAR LIMIT=NONE]">Dialog icon</string>
+    <string name="cat_button_require_selection" translatable="false">Require Selection</string>
+    <string name="cat_button_vertical_orientation" translatable="false">Vertical Orientation</string>
+    <string name="cat_button_enable" translatable="false">Enabled</string>
+
+    <string name="cat_bottomappbar_title">Bottom App Bar</string>
+    <string name="cat_bottomappbar_description">
+    A bottom app bar provides a docked bar at the bottom of the screen for common application
+    actions. The bottom app bar includes a floating button for a primary action and a navigation bar
+    area for secondary actions.
+  </string>
+    <string name="cat_bottomappbar_lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.\n\n
+Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.\n\n
+Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.\n\n
+Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim."</string>
+
+    <string name="cat_bottomappbar_center">Center</string>
+    <string name="cat_bottomappbar_fab_hide">Hide Fab</string>
+    <string name="cat_bottomappbar_fab_show">Show Fab</string>
+    <string name="cat_bottomappbar_scroll_hide" description="Name of the FAB Hide on Scroll Mode switch [CHAR_LIMIT=NONE]">Hide bottom app bar on scroll</string>
+    <string name="cat_bottomappbar_fab_anim_scale">Scale fab</string>
+    <string name="cat_bottomappbar_fab_anim_slide">Slide fab</string>
+    <string name="cat_bottomappbar_fab_circle">Circle</string>
+    <string name="cat_bottomappbar_fab_diamond">Diamond</string>
+    <string name="cat_bottomappbar_end">End</string>
+
+    <string name="cat_bottomappbar_3d">3D</string>
+    <string name="cat_bottomappbar_accelerator">Accelerator</string>
+    <string name="cat_bottomappbar_search">Search</string>
+    <string name="cat_bottomappbar_dashboard">Dashboard</string>
+    <string name="cat_bottomappbar_navigation_button_content_description">Show navigation drawer</string>
+    <string name="cat_bottomappbar_fab_button_content_description">FAB</string>
+
+    <string name="cat_bottomappbar_fab_alignment_mode" description="Name of the FAB Alignment Mode toggle button group [CHAR_LIMIT=NONE]">Fab Alignment Mode</string>
+    <string name="cat_bottomappbar_fab_animation_mode" description="Name of the FAB Animation Mode toggle button group [CHAR_LIMIT=NONE]">Fab Animation Mode</string>
+    <string name="cat_bottomappbar_fab_visibility_mode" description="Name of the FAB Visibility Mode toggle button group [CHAR_LIMIT=NONE]">Fab Visibility Mode</string>
+    <string name="cat_bottomappbar_fab_anchor_mode" description="Name of the FAB Anchor Mode toggle button group [CHAR_LIMIT=NONE]">Fab Anchor Mode</string>
+    <string name="cat_bottomappbar_menu_alignment" description="Name of the Menu Alignment toggle button group [CHAR_LIMIT=NONE]">Menu Alignment Mode</string>
+
+    <string name="cat_bottomappbar_button_embed" description="Name of the option to embed the FAB inside the BottomAppBar [CHAR_LIMIT=NONE]">Embed</string>
+    <string name="cat_bottomappbar_button_cradle" description="Name of the option to cradle the FAB on top of the BottomAppBar [CHAR_LIMIT=NONE]">Cradle</string>
+    <string name="cat_bottomappbar_button_menu_alignment_auto" description="Name of the option to set the menu item alignment to be automatic [CHAR_LIMIT=NONE]">Auto</string>
+    <string name="cat_bottomappbar_button_menu_alignment_start" description="Name of the option to set the menu item alignment to be start-aligned [CHAR_LIMIT=NONE]">Start</string>
+
+    <string name="cat_bottomsheet_title">Bottom Sheet</string>
+    <string name="cat_bottomsheet_description">
+    Displays a demo of the Bottom Sheet component.
+  </string>
+    <string name="cat_bottomsheet_switch_text">
+    fullscreen mode
+  </string>
+    <string name="cat_bottomsheet_expansion_switch_text">
+    restrict expansion
+  </string>
+
+    <string name="cat_bottomsheet_button_text">
+    Show Modal BottomSheetDialog
+  </string>
+    <string name="cat_bottomsheet_state_collapsed" translatable="false">
+    STATE_COLLAPSED
+  </string>
+    <string name="cat_bottomsheet_state_dragging" translatable="false">
+    STATE_DRAGGING
+  </string>
+    <string name="cat_bottomsheet_state_expanded" translatable="false">
+    STATE_EXPANDED
+  </string>
+    <string name="cat_bottomsheet_state_half_expanded" translatable="false">
+    STATE_HALF_EXPANDED\nhalfExpandedRatio = %.2f
+  </string>
+    <string name="cat_bottomsheet_persistent">
+    Persistent Bottomsheet
+  </string>
+    <string name="cat_bottomsheet_button_label_enabled">Enabled</string>
+    <string name="cat_bottomsheet_button_label_disabled">Disabled</string>
+    <string name="cat_bottomsheet_button_clicked">Button clicked</string>
+    <string name="cat_bottomsheet_scrollable_content_demo_title">
+    Vertically scrollable content demo
+  </string>
+    <string name="cat_bottomsheet_label_add_people">Add People</string>
+    <string name="cat_bottomsheet_label_copy_link">Copy link</string>
+    <string name="cat_bottomsheet_label_open_in">Open In</string>
+    <string name="cat_bottomsheet_label_move">Move</string>
+    <string name="cat_bottomsheet_label_available_offline">Available offline</string>
+    <string name="cat_bottomsheet_label_star">Star</string>
+    <string name="cat_bottomsheet_label_remove">Remove</string>
+    <string name="cat_bottomsheet_label_rename">Rename</string>
+
+    <string name="cat_card_title">Cards</string>
+    <string name="cat_card_draggable_card">Draggable Card</string>
+    <string name="cat_card_selection_mode">Selectable Cards</string>
+    <string name="cat_card_selectable_item_title">Message</string>
+    <string name="cat_card_states">Card States</string>
+    <string name="cat_card_list" translatable="false">Card List With Drag-and-Drop</string>
+    <string name="cat_card_draggable_card_content">This is a draggable Card.</string>
+    <string name="cat_card_states_card_content">This demo shows the different states on a card.</string>
+    <string name="cat_card_state_hovered">Hovered</string>
+    <string name="cat_card_state_pressed">Pressed</string>
+    <string name="cat_card_state_none">None</string>
+    <string name="cat_card_checkable_card">This is a checkable Card</string>
+    <string name="cat_card_m1_section_title">Material 1 CardView</string>
+    <string name="cat_card_description">
+    Cards represent entry points into deeper levels of detail or navigation, such as an album in
+    Music or an upcoming vacation in Trips. They can be used in a grid, carousel, or feed to
+    contain groups of individual packaged information.
+  </string>
+    <string name="cat_card_spacing_desc">
+    Cards on mobile default to 8dp margins. layout_margin needs to be set directly on a View in its
+    layout and will not work when included as part of a style.
+  </string>
+    <string name="cat_card_clickable_desc">
+    Cards can be clickable.
+  </string>
+    <string name="cat_card_filled_style_desc">
+    This is a filled style card.
+  </string>
+    <string name="cat_card_elevated_style_desc">
+    This is an elevated style card.
+  </string>
+    <string name="cat_card_elevation_desc">
+        Cards use outlined styling with no elevation and with 8dp rounded corners.
+  </string>
+    <string name="cat_card_m1_desc">
+    CardView from the Support Library works side-by-side with MaterialCardView. These cards default
+    to Material 1 styles and support fewer style attributes than MaterialCardView.
+  </string>
+    <string name="cat_card_style_only_desc">
+    MaterialCardView uses the correct styles by default and makes use of additional style attributes
+    that are not provided in CardView. If you do not need to use the new style attributes, you can
+    use MaterialCardView in your layout, or apply a style tag to a CardView. We recommend using
+    the MaterialCardView class for the latest Material designs and maximum flexibility in your UI.
+  </string>
+    <string name="cat_card_select">Select a state</string>
+    <string name="cat_card_selectable_content">
+    Lorem ipsum dolor sit amet, nec no nominavi scaevola. Per et sint sapientem, nobis perpetua salutandi mei te. Quo tamquam probatus reprehendunt in. Eos esse purto eruditi ea. Enim tation persius ut sea, eos ad consul populo.
+    Ne eum solet altera. Cibo eligendi et est, electram theophrastus te vel eu.
+  </string>
+
+    <!-- Rich Media Demo Strings -->
+    <string name="cat_card_rich_media_demo">Rich Media Cards</string>
+    <string name="cat_card_rich_media_sample_1">Sample #1</string>
+    <string name="cat_card_rich_media_sample_2">Sample #2</string>
+    <string name="cat_card_rich_media_sample_3">Sample #3</string>
+    <string name="cat_card_rich_media_view_overline">Title goes here</string>
+    <string name="cat_card_rich_media_view_title">Title goes here</string>
+    <string name="cat_card_rich_media_view_subtitle">Subtitle goes here</string>
+    <string name="cat_card_rich_media_view_secondary_line_text">Secondary line text Lorem ipsum dolor sit amet, nec no nominavi scaevola. Per et sint sapientem, nobis perpetua salutandi mei te.</string>
+    <string name="cat_card_rich_media_logo_view_description">Card Logo</string>
+    <string name="cat_card_rich_media_image_view_description">Card Image</string>
+    <string name="cat_card_rich_media_rating_text">4.5 (413)</string>
+    <string name="cat_card_rich_media_rating_view_description">Card Rating</string>
+    <string name="cat_card_rich_media_chip_title_1">Item 1</string>
+    <string name="cat_card_rich_media_chip_title_2">Item 2</string>
+    <string name="cat_card_rich_media_chip_title_3">Item 3</string>
+    <string name="cat_card_rich_media_chip_title_4">Item 4</string>
+    <string name="cat_card_rich_media_action_1">Action 1</string>
+    <string name="cat_card_rich_media_action_2">Action 2</string>
+
+    <string name="cat_card_action_move_top_left" description="A description of an action that a user of an accessibility service can perform to move the card to the top left corner of the screen. [CHAR LIMIT=25]">Move to top left</string>
+
+
+    <string name="cat_card_action_move_up" description="A description of an action that a user of an accessibility service can perform to swap the card with the one above it. [CHAR LIMIT=25]">Move Up</string>
+    <string name="cat_card_action_move_down" description="A description of an action that a user of an accessibility service can perform to swap the card with the one below it. [CHAR LIMIT=25]">Move Down</string>
+    <string name="cat_card_action_move_top_right" description="A description of an action that a user of an accessibility service can perform to move the card to the top right corner of the screen. [CHAR LIMIT=25]">Move to top right</string>
+    <string name="cat_card_action_move_bottom_left" description="A description of an action that a user of an accessibility service can perform to move the card to the bottom left corner of the screen. [CHAR LIMIT=25]">Move to bottom left</string>
+    <string name="cat_card_action_move_bottom_right" description="A description of an action that a user of an accessibility service can perform to move the card to the bottom right corner of the screen. [CHAR LIMIT=25]">Move to bottom right</string>
+    <string name="cat_card_action_move_center" description="A description of an action that a user of an accessibility service can perform to move the card to the center of the screen. [CHAR LIMIT=25]">Move to center</string>
+
+    <string name="cat_card_dismissed" description="a transient text that appears on screen when a card is dismissed [CHAR LIMIT=30]">Card Dismissed</string>
+    <string name="cat_card_undo" description="A label in a button to dismiss the last action [CHAR LIMIT=15]">Undo</string>
+    <string name="cat_card_swipe_to_dismiss" description="A label in a button to dismiss the last action [CHAR LIMIT=30]">Swipe this card to dismiss it</string>
+    <string name="cat_card_swipe_dismiss" description="the title of a screen where you can swipe to dismiss a card [CHAR LIMIT=20]">Card Swipe Dismiss</string>
+  <string name="cat_checkbox_title" translatable="false">Checkbox</string>
+  <string name="cat_checkbox_description" translatable="false">
+    The CheckBox provides a selectable element, usually part of a list,
+    that toggles between two states.</string>
+  <string name="cat_checkbox_intro" translatable="false">
+    Below are Material checkboxes.</string>
+  <string name="cat_checkbox_disabled_guide" translatable="false">
+    CheckBox elements that are disabled cannot be interacted with and will
+    appear faded.</string>
+  <string name="cat_checkbox_enabled" translatable="false">Enabled</string>
+  <string name="cat_checkbox_disabled" translatable="false">Disabled</string>
+  <string name="cat_checkbox_enablable_description" translatable="false">
+    Check this checkbox to control the enabled state of the boxes below.</string>
+  <string name="cat_checkbox_toggle" translatable="false">
+    Controlled by a checkbox</string>
+  <string name="cat_indeterminate_description" translatable="false">
+    The checkboxes below have a parent/child relationship. The parent\'s state
+    depends on the state of the children.
+  </string>
+  <string name="cat_checkbox_indeterminate" translatable="false">
+    Parent checkbox</string>
+  <string name="cat_checkbox_indeterminate_child" translatable="false">
+    Child checkbox</string>
+  <string name="cat_checkbox_no_text" translatable="false">
+    Below is a checkbox with no text.</string>
+  <string name="cat_checkbox_toggle_error" translatable="false">
+    Check this checkbox to control the error state of all checkboxes in this page.</string>
+
+  <string name="cat_chip_title">Chips</string>
+  <string name="cat_chip_description">
+    Chips are used when multiple interactive elements appear together in the same area, such as a
+    list of selectable movie times, a series of email contacts, or even an intelligent cross-app
+    action.
+  </string>
+
+  <string name="cat_chip_text">Hello, World!</string>
+  <string name="cat_chip_text_to_truncate">Hello, very very very very very very very very big World!</string>
+  <string name="cat_chip_long_text_switch_label">Long text</string>
+  <string name="cat_chip_enabled_switch_label">Enabled</string>
+
+  <string name="cat_chip_group_demo_title">Chip Group Demo</string>
+  <string name="cat_chip_group_single_selection_text">Single selection</string>
+  <string name="cat_chip_group_selection_required_text">Selection required</string>
+
+  <string name="cat_chip_reflow_group">Reflowing chip group</string>
+  <string name="cat_chip_scroll_group">Scrolling chip group</string>
+
+  <string name="cat_chip_recyclerview_demo_title">Chip RecyclerView Demo</string>
+
+  <string name="cat_chip_input_label">Input</string>
+  <string name="cat_chip_filter_label">Filter</string>
+  <string name="cat_chip_input_icon_label">Input Icon</string>
+  <string name="cat_chip_input_no_icon_label">Input no icon</string>
+  <string name="m3_chip_suggestion_label">Suggestion</string>
+  <string name="m3_chip_suggestion_elevated_label">Suggestion Elevated</string>
+  <string name="m3_chip_assist_label">Assist</string>
+  <string name="m3_chip_assist_elevated_label">Assist Elevated</string>
+  <string name="m3_chip_assist_no_icon_label">Assist without icon</string>
+  <string name="m3_chip_filter_elevated_label">Filter Elevated</string>
+
+  <string name="cat_chip_edit_text">Standalone: [chip]</string>
+  <string name="cat_chip_edit_text_token">[chip]</string>
+
+  <string-array name="cat_chip_group_text_array">
+    <item>New York</item>
+    <item>Los Angeles</item>
+    <item>Chicago</item>
+    <item>Houston</item>
+    <item>Philadelphia</item>
+    <item>Phoenix</item>
+    <item>San Antonio</item>
+    <item>San Diego</item>
+    <item>Dallas</item>
+    <item>San Jose</item>
+    <item>Austin</item>
+    <item>Jacksonville</item>
+    <item>San Francisco</item>
+  </string-array>
+
+  <string name="cat_chip_group_refresh_content_description">Refresh chip groups</string>
+  <!-- Title of the demo displaying pop-up pickers. [CHAR LIMIT=40] -->
+  <string name="cat_picker_demo_title">Date Picker</string>
+  <!-- Description of what pickers are used for in applications. [CHAR LIMIT=NONE] -->
+  <string name="cat_picker_description">Date pickers allow users to choose dates.</string>
+  <!-- Button label that indicates clicking the button
+  will launch a Material Date Picker [CHAR LIMIT=120] -->
+  <string name="cat_picker_launch">Launch Customized Material Date Picker</string>
+
+  <!-- Informs that the user clicked the cancel button [CHAR LIMIT=120]-->
+  <string name="cat_picker_user_clicked_cancel">The user clicked the cancel button.</string>
+  <!-- Informs that the picker was cancelled [CHAR LIMIT=120]-->
+  <string name="cat_picker_cancel">The picker was cancelled.</string>
+  <!-- Informs that the user action is being awaited [CHAR LIMIT=120] -->
+  <string name="cat_picker_no_action">Awaiting user action.</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the selection mode [CHAR LIMIT=45] -->
+  <string name="cat_picker_date_selector">Selection Mode</string>
+  <!-- Indicates that the selection mode is a single date [CHAR LIMIT=80] -->
+  <string name="cat_picker_date_selector_single">Single Date</string>
+  <!-- Indicates that the selection mode is a date range [CHAR LIMIT=80] -->
+  <string name="cat_picker_date_selector_range">Date Range</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the visual theme [CHAR LIMIT=50] -->
+  <string name="cat_picker_theme">Theme</string>
+  <!-- Indicates that the default theme will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_theme_default">Default</string>
+  <!-- Indicates that the dialog theme will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_theme_dialog">Dialog</string>
+  <!-- Indicates that the fullscreen theme will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_theme_fullscreen">Fullscreen</string>
+  <!-- Indicates that a custom theme will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_theme_custom">Custom</string>
+
+  <!-- Grouping label for a set of radio buttons that
+  choose the allowed calendar bounds [CHAR LIMIT=50] -->
+  <string name="cat_picker_bounds">Bounds</string>
+  <!-- Indicates that the default bounds will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_bounds_default">Default</string>
+  <!-- Indicates that the bounds will be restricted to this year only [CHAR LIMIT=25] -->
+  <string name="cat_picker_bounds_this_year">This year</string>
+  <!-- Indicates that the bounds will be restricted to dates within 1 year [CHAR LIMIT=25] -->
+  <string name="cat_picker_bounds_one_year_forward">Within 1 year</string>
+
+  <!-- Grouping label for a set of radio buttons that choose valid dates [CHAR LIMIT=50] -->
+  <string name="cat_picker_validation">Valid Days</string>
+  <!-- Indicates that the default valid days will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_validation_default">Default</string>
+  <!-- Indicates that only today and future days will be valid [CHAR LIMIT=25] -->
+  <string name="cat_picker_validation_today_onward">Today onward</string>
+  <!-- Indicates that only weekdays will be valid [CHAR LIMIT=25] -->
+  <string name="cat_picker_validation_weekdays">Weekdays</string>
+  <!-- Indicates that only the last 2 weeks will be valid [CHAR LIMIT=25] -->
+  <string name="cat_picker_validation_last_two_weeks">Last 2 weeks</string>
+  <!-- Indicates a multiple range [CHAR LIMIT=25] -->
+  <string name="cat_picker_validation_multiple_range">Multiple range</string>
+
+
+  <!-- Grouping label for a set of radio buttons that choose the title [CHAR LIMIT=50] -->
+  <string name="cat_picker_title">Picker Title</string>
+  <!-- Indicates that the default title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_title_default">Default</string>
+  <!-- Indicates that a custom title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_title_custom">Custom</string>
+  <!-- Indicates that a custom title with description will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_title_with_description">With Description</string>
+  <!-- First part of the title and description for the date picker header [CHAR LIMIT=200] -->
+  <string name="cat_picker_title_description_main">"Select dates\n\nSelect the range of dates that you want to pause for the alarm that is set at "</string>
+  <!-- Second part of the description for the date picker header [CHAR LIMIT=60] -->
+  <string name="cat_picker_title_description_colored">6:30pm on Tues, Wed, Thurs.</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the selection [CHAR LIMIT=50] -->
+  <string name="cat_picker_selection">Default Selection</string>
+  <!-- Indicates that the default selection will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_selection_default">Default</string>
+  <!-- Indicates that today will be used for the selection [CHAR LIMIT=25] -->
+  <string name="cat_picker_selection_today">Today</string>
+  <!-- Indicates that a day in the next month will be used for the selection [CHAR LIMIT=25] -->
+  <string name="cat_picker_selection_next_month">Next Month</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the openAt month [CHAR LIMIT=50] -->
+  <string name="cat_picker_opening_month">Opening Month</string>
+  <!-- Indicates that the picker will open to the default month [CHAR LIMIT=25] -->
+  <string name="cat_picker_opening_month_default">Default</string>
+  <!-- Indicates that the picker will open to today's month [CHAR LIMIT=25] -->
+  <string name="cat_picker_opening_month_today">Today</string>
+  <!-- Indicates that the picker will open to next month [CHAR LIMIT=25] -->
+  <string name="cat_picker_opening_month_next">Next Month</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the input mode [CHAR LIMIT=50] -->
+  <string name="cat_picker_input_mode">Input Mode</string>
+  <!-- Indicates that the picker will start with calendar mode [CHAR LIMIT=25] -->
+  <string name="cat_picker_input_mode_calendar">Calendar</string>
+  <!-- Indicates that the picker will start with text input mode [CHAR LIMIT=25] -->
+  <string name="cat_picker_input_mode_text">Text Input</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the day view
+       decorator [CHAR LIMIT=75] -->
+  <string name="cat_picker_day_view_decorator">Day View Decorator</string>
+  <!-- Indicates that the picker will use no day view decorator [CHAR LIMIT=50] -->
+  <string name="cat_picker_day_view_decorator_none">None</string>
+  <!-- Indicates that the picker will use a dots day view decorator [CHAR LIMIT=50] -->
+  <string name="cat_picker_day_view_decorator_dots">Dots</string>
+  <!-- Indicates that the picker will use a highlights day view decorator [CHAR LIMIT=50] -->
+  <string name="cat_picker_day_view_decorator_highlights">Highlights</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the positive button [CHAR LIMIT=50] -->
+  <string name="cat_picker_positive_button">Picker Positive Button</string>
+  <!-- Indicates that the default title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_positive_button_default">Default</string>
+  <!-- Indicates that a custom title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_positive_button_custom">Custom</string>
+
+  <!-- Grouping label for a set of radio buttons that choose the negative button [CHAR LIMIT=50] -->
+  <string name="cat_picker_negative_button">Picker Negative Button</string>
+  <!-- Indicates that the default title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_negative_button_default">Default</string>
+  <!-- Indicates that a custom title will be used [CHAR LIMIT=25] -->
+  <string name="cat_picker_negative_button_custom">Custom</string>
+
+  <!-- The custom positive button text -->
+  <string name="cat_picker_positive_button_text">DONE</string>
+  <!-- The custom negative button text -->
+  <string name="cat_picker_negative_button_text">Negative</string>
+
+  <!-- The custom dots day view decorator's content description [CHAR LIMIT=120] -->
+  <string name="cat_picker_day_view_decorator_dots_content_description">%s Dotted</string>
+  <!-- The custom highlights day view decorator's content description [CHAR LIMIT=120] -->
+  <string name="cat_picker_day_view_decorator_highlights_content_description">%s Highlighted</string>
+
+  <!-- Title of the demo displaying pop-up dialog windows. [CHAR LIMIT=40] -->
+  <string name="cat_dialog_title">Dialogs</string>
+  <!-- Description of dialog windows and their uses. [CHAR LIMIT=NONE] -->
+  <string name="cat_dialog_description">Dialogs create modals that users must interact with before performing any other actions. Dialogs should only be used for user input and notices that cannot be delayed.</string>
+  <!-- Library name of the existing, most commonly used, AlertDialog implementation. [CHAR LIMIT=60] -->
+  <string name="app_compat_alert_dialog">AppCompat AlertDialog</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="message_2_actions">Message, 2 Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="long_message_2_actions">Long Message, 2 Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_2_actions">Title, 2 Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_message_3_long_actions">Title, Message, 3 Long Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="long_title_message_too_long_actions">Long Title, Message, Over-length Buttons</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="icon_title_message_2_actions">Icon, Title, Message, 2 Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="icon_title_message_2_actions_centered">Icon, Title, Message, 2 Actions (Centered)</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="edit_text">Edit Text</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_choices_as_actions">Items list</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_checkboxes_2_actions">Multi-select list</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_radiobuttons_2_actions">Single select list</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_slider_2_actions">Custom View</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_scrolling_2_actions">Scrolling Content, Title, Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_scrolling">Scrolling Content</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=60] -->
+  <string name="title_2_short_actions">Short Buttons</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=100] -->
+  <string name="icon_title_message_2_actions_fullwidth_buttons">Icon, Title, Message, 2 Full Width Actions</string>
+  <!-- Denotes what parts of an AlertDialog this button will display. [CHAR LIMIT=100] -->
+  <string name="icon_title_message_2_actions_centered_fullwidth_buttons">Icon, Title, Message, 2 Full Width Actions (Centered)</string>
+
+  <!-- Text for a positive dialog action. [CHAR LIMIT=15] -->
+  <string name="positive">Accept</string>
+  <!-- Text for a negative dialog action. [CHAR LIMIT=15] -->
+  <string name="negative">Decline</string>
+  <!-- Text for a dialog title. [CHAR LIMIT=30] -->
+  <string name="title">Title</string>
+  <!-- A large amount of text in order to display a long dialog. [CHAR LIMIT=NONE][DO_NOT_TRANSLATE] -->
+  <string name="long_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In justo tortor, volutpat sit amet congue eu, accumsan quis nisl. Mauris accumsan lectus ipsum, a suscipit risus dictum ac. Suspendisse nec est lorem. Ut tortor est, elementum in massa id, scelerisque condimentum nibh. Ut et fermentum dolor. Suspendisse potenti. Sed dictum vestibulum metus, ut interdum ipsum. Vestibulum scelerisque ipsum commodo malesuada suscipit. Quisque pulvinar fermentum vulputate. Duis euismod, massa sed auctor egestas, ligula enim luctus orci, ac tincidunt sem massa ac enim. In non neque finibus, posuere quam eget, venenatis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ut eros imperdiet, fringilla felis eget, porttitor est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam luctus ac nulla nec elementum. Nunc sit amet nisl hendrerit, volutpat enim ut, posuere nulla. Ut porttitor magna nisi, lacinia iaculis ex tempor et. Pellentesque rhoncus augue quis pretium aliquam. Integer ut augue vitae lectus suscipit gravida. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla bibendum ex a nunc porta, vitae maximus nisl viverra. Vivamus sit amet risus varius, fringilla turpis nec, maximus elit. Cras id massa pharetra, viverra urna ac.</string>
+  <!-- Text for a dialog message. [CHAR LIMIT=30] -->
+  <string name="message">Message</string>
+  <!-- A very small amount of text 1. [CHAR LIMIT=1] -->
+  <string name="short_text_1">1</string>
+  <!-- A very small amount of text 2. [CHAR LIMIT=1] -->
+  <string name="short_text_2">2</string>
+  <!-- Text for a longer positive dialog action. [CHAR LIMIT=40] -->
+  <string name="long_positive">This is a long Accept message.</string>
+  <!-- Text for a longer negative dialog action. [CHAR LIMIT=40] -->
+  <string name="long_negative">This is a long Decline message.</string>
+  <!-- Text for a longer neutral dialog action. [CHAR LIMIT=40] -->
+  <string name="long_neutral">This is a long Cancel message.</string>
+  <!-- Text for a longer dialog title. [CHAR LIMIT=NONE] -->
+  <string name="long_title">This is a long title. It is so long that it spans multiple lines on normal screens and may trigger ellipses.</string>
+  <!-- Text for a positive dialog action that does not fit in the dialog window. [CHAR LIMIT=NONE] -->
+  <string name="too_long_positive">This is a long Accept message. It is so long that it spans multiple lines on normal screens.</string>
+  <!-- Text for a neutral dialog action that does not fit in the dialog window. [CHAR LIMIT=NONE] -->
+  <string name="too_long_neutral">This is a long Cancel message. It is so long that it spans multiple lines on normal screens.</string>
+  <!-- Text for a negative dialog action that does not fit in the dialog window. [CHAR LIMIT=NONE] -->
+  <string name="too_long_negative">This is a long Decline message. It is so long that it spans multiple lines on normal screens.</string>
+  <!-- Denotes a new line. [CHAR LIMIT=40] -->
+  <string name="line">"Line "</string>
+
+  <string name="cat_imageview_title" description="A fragment showing the image view component [CHAR LIMIT=20]">Image View</string>
+  <string name="cat_imageview_square" description="Label for a button that changes the image shape to a square [CHAR LIMIT=20]">Square</string>
+  <string name="cat_imageview_diamond" description="Label for a button that changes the image shape to a diamond [CHAR LIMIT=20]">Diamond</string>
+  <string name="cat_imageview_circle" description="Label for a button that changes the image shape to a circle [CHAR LIMIT=20]">Circle</string>
+  <string name="cat_imageview_description" description="Brief explanation of the ImageView component.[CHAR LIMIT=NONE]">
+    The ShapeableImageViewComponent provides the ability to set a Shape on your images.</string>
+  <string name="cat_menus_title">Menus</string>
+  <string name="cat_menus_description">A menu displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.</string>
+  <string name="menu_button_label">&#8942;</string>
+  <string name="show_menu" description="Label for button that shows the menu [CHAR_LIMIT=20].">Show Menu</string>
+  <string name="menu_with_icons" description="Text to indicate button below shows a menu with icons [CHAR_LIMIT=NONE].">Menu with icons</string>
+  <string name="menu" description="Text to indicate button below shows a menu [CHAR_LIMIT=NONE].">Menu</string>
+  <string name="context_menu" description="label for section where the context menu is featured [CHAR_LIMIT=20].">Context Menu</string>
+  <string name="list_popup_window" description="Text to indicate button below shows a ListPopupWindow [CHAR_LIMIT=NONE].">ListPopupWindow</string>
+  <string name="menu_demo_description">
+    Menus within a Material theme will default to a text style of textAppearanceSubtitle1.
+    \n\n The menu background adds top and bottom padding, rounded corners, and 8dp elevation.
+    \n\n You can try the popup menus, context menu, or the overflow menu in this demo.
+  </string>
+
+  <string name="menu_context_menu_description" description="Text explaining how to use context menus [CHAR_LIMIT=NONE].">
+    This TextView opens a context menu when long pressed.
+    \n\nIt provides actions that affect the selected content or context frame.
+  </string>
+  <string name="context_menu_highlight" description="text for a menu option to highlight text [CHAR_LIMIT=20].">Highlight</string>
+
+  <string-array name="cat_list_popup_window_content" translatable="false">
+    <item>Item 1</item>
+    <item>Item 2</item>
+    <item>Item 3</item>
+    <item>Item 4</item>
+  </string-array>
+
+  <string name="cat_bottom_nav_title">Navigation Bar (Bottom Navigation)</string>
+  <string name="cat_bottom_nav_label_visibility_demo_title">Label Visibility Demo</string>
+  <string name="cat_bottom_nav_animated_demo_title">Animated Demo</string>
+  <string name="cat_bottom_nav_description">
+    Navigation bars make it easy to explore and switch between top-level views in a single
+    tap. This navigational element resides at the bottom of the screen, and provides direct access
+    for three to five destinations within an app.
+  </string>
+
+  <string name="cat_bottom_nav_item_name">Item %1$d</string>
+  <string name="cat_bottom_nav_page_1_name">Page 1</string>
+  <string name="cat_bottom_nav_page_2_name">Page 2</string>
+  <string name="cat_bottom_nav_page_3_name">Page 3</string>
+  <string name="cat_bottom_nav_page_4_name">Page 4</string>
+  <string name="cat_bottom_nav_page_5_name">Page 5</string>
+
+  <string name="cat_bottom_nav_add_nav_item">Add nav item</string>
+  <string name="cat_bottom_nav_remove_nav_item">Remove nav item</string>
+  <string name="cat_bottom_nav_increment_badge_number" description="The title of a button to increment the notification number. [CHAR_LIMIT=20]">+Badge number</string>
+  <string name="cat_bottom_nav_icon_size_slider_title">Icon size: </string>
+  <string name="cat_bottom_nav_label_visibility_mode_title">Label visibility mode:</string>
+
+  <string name="cat_bottom_nav_label_visibility_mode_auto">Auto</string>
+  <string name="cat_bottom_nav_label_visibility_mode_selected">Selected</string>
+  <string name="cat_bottom_nav_label_visibility_mode_labeled">Labeled</string>
+  <string name="cat_bottom_nav_label_visibility_mode_unlabeled">Unlabeled</string>
+
+  <string name="cat_bottom_nav_slider_max">48dp</string>
+  <string name="cat_bottom_nav_slider_min">0dp</string>
+
+  <string name="cat_bottom_nav_alarm">Alarm</string>
+  <string name="cat_bottom_nav_clock">Clock</string>
+  <string name="cat_bottom_nav_timer">Timer</string>
+  <string name="cat_bottom_nav_stopwatch">Stopwatch</string>
+
+  <string name="cat_bottom_nav_badge_gravity_top_end">Top end</string>
+  <string name="cat_bottom_nav_badge_gravity_top_start">Top start</string>
+  <string name="cat_bottom_nav_badge_gravity_bottom_end">Bottom end</string>
+  <string name="cat_bottom_nav_badge_gravity_bottom_start">Bottom start</string>
+
+  <string name="cat_bottom_nav_badge_gravity_spinner_label">Badge gravity</string>
+  <string name="cat_navigationdrawer_title"
+      description="The title for the navigation drawer demo. [CHAR_LIMIT=100]">Navigation Drawer</string>
+  <string name="cat_navigationdrawer_description"
+      description="Brief summary about navigation drawer component demo. [CHAR_LIMIT=500]">
+    Navigation drawers provide access to destinations and app functionality,
+    such as switching accounts. They can either be permanently on-screen or
+    controlled by a navigation menu icon.
+  </string>
+
+  <string name="cat_navigationdrawer_instructions">Press the menu icon above to open the navigation drawer.</string>
+  <string name="cat_navigationdrawer_header_mail">Mail</string>
+  <string name="cat_navigationdrawer_header_labels">Labels</string>
+  <string name="cat_navigationdrawer_label">Label</string>
+  <string name="cat_navigationdrawer_3d">3D</string>
+  <string name="cat_navigationdrawer_accelerator">Accelerator</string>
+  <string name="cat_navigationdrawer_search">Search</string>
+  <string name="cat_navigationdrawer_dashboard">Dashboard</string>
+  <string name="cat_navigationdrawer_button_show_content_description">Show navigation drawer</string>
+  <string name="cat_navigationdrawer_button_hide_content_description">Hide navigation drawer</string>
+  <string name="cat_navigationdrawer_header_image_content_description">Account icon</string>
+  <string name="cat_navigationdrawer_header_title">Material 3 Components</string>
+  <string name="cat_navigationdrawer_header_subtitle">example@material.io</string>
+  <string name="cat_navigation_rail_title"
+      description="The title for the navigation rail demo. [CHAR_LIMIT=100]">Navigation Rail</string>
+  <string name="cat_navigation_rail_description"
+      description="Brief summary about navigation rail componentdemo. [CHAR_LIMIT=500]">
+    Navigation Rails make it easy to explore and switch between top-level views in a single
+    tap. This navigational element resides at the bottom of the screen, and provides direct access
+    for three to five destinations within an app.
+  </string>
+
+  <string name="cat_navigation_rail_additional_controls_demo_title"
+      description="Label for the demo that shows how the look and behavior navigation rail may be configured. [CHAR_LIMIT=100]">Additional Controls Demo</string>
+  <string name="cat_navigation_rail_animated_demo_title"
+      description="Label the navigation rail demo that shows animated icons [CHAR_LIMIT=100]">Animated Demo</string>
+  <string name="cat_navigation_rail_compact_demo_title"
+      description="Label for the demo that shows navigation rail in compact style. [CHAR_LIMIT=100]">Compact Style Demo</string>
+
+  <string name="cat_navigation_rail_page_1_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 1</string>
+  <string name="cat_navigation_rail_page_2_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 2</string>
+  <string name="cat_navigation_rail_page_3_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 3</string>
+  <string name="cat_navigation_rail_page_4_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 4</string>
+  <string name="cat_navigation_rail_page_5_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 5</string>
+  <string name="cat_navigation_rail_page_6_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 6</string>
+  <string name="cat_navigation_rail_page_7_name"
+      description="The title of a page in the navigation rail demo. [CHAR_LIMIT=50]">Page 7</string>
+
+  <string name="cat_navigation_rail_add_nav_item"
+      description="Label for the button that will add a destination to the navigation rail. [CHAR_LIMIT=50]">Add destination</string>
+  <string name="cat_navigation_rail_remove_nav_item"
+      description="Label for the button that will the last destination from the navigation rail. [CHAR_LIMIT=50]">Remove destination</string>
+  <string name="cat_navigation_rail_increment_badge_number"
+      description="The title of a button to increment the notification number. [CHAR_LIMIT=20]">+Badge number</string>
+
+  <string name="cat_navigation_rail_add_header_view"
+      description="Label for the button that will add a header view to the navigation rail. [CHAR_LIMIT=50]">Add Header View</string>
+  <string name="cat_navigation_rail_remove_header_view"
+      description="Label for the button that will remove the header view from the navigation rail. [CHAR_LIMIT=50]">Remove Header View</string>
+
+  <string name="cat_navigation_rail_icon_size_slider_title"
+      description="Label for the current icon size display. [CHAR_LIMIT=50]">Icon size: </string>
+  <string name="cat_navigation_rail_slider_max" translatable="false">48dp</string>
+  <string name="cat_navigation_rail_slider_min" translatable="false">0dp</string>
+
+  <string name="cat_navigation_rail_menu_gravity_control_title"
+      description="Label for the group of choices that controls how destinations will be grouped in the navigation rail. [CHAR_LIMIT=100]">Menu Gravity:</string>
+  <string name="cat_navigation_rail_menu_gravity_top"
+      description="Label for the choice that will cause the destinations to be grouped at the top of the navigation rail. [CHAR_LIMIT=50]">Top</string>
+  <string name="cat_navigation_rail_menu_gravity_center"
+      description="Label for the choice that will cause the destinations to be grouped at the center of the navigation rail. [CHAR_LIMIT=50]">Center</string>
+  <string name="cat_navigation_rail_menu_gravity_bottom"
+      description="Label for the choice that will cause the destinations to be grouped at the bottom of the navigation rail. [CHAR_LIMIT=50]">Bottom</string>
+
+  <string name="cat_navigation_rail_label_visibility_mode_title"
+      description="Label for the group of choices that controls if and when the destination labels will be displayed in the navigation rail. [CHAR_LIMIT=100]">Label visibility mode:</string>
+  <string name="cat_navigation_rail_label_visibility_mode_auto"
+      description="Label for the choice that will cause the destination lables to be displayed automatically based on the total number of destinations in the navigation rail. [CHAR_LIMIT=50]">Auto</string>
+  <string name="cat_navigation_rail_label_visibility_mode_selected"
+      description="Label for the choice that will cause the destination lables to be displayed only for the currently selected destination in the navigation rail. [CHAR_LIMIT=50]">Selected</string>
+  <string name="cat_navigation_rail_label_visibility_mode_labeled"
+      description="Label for the choice that will cause the destination lables to be displayed always in the navigation rail. [CHAR_LIMIT=50]">Labeled</string>
+  <string name="cat_navigation_rail_label_visibility_mode_unlabeled"
+      description="Label for the choice that will cause the destination lables to be hidden always in the navigation rail. [CHAR_LIMIT=50]">Unlabeled</string>
+
+  <string name="cat_navigation_rail_badge_gravity_spinner_label"
+      description="Label for the dropdown that controls where badges will be positioned relative to the icon. [CHAR_LIMIT=50]">Badge gravity</string>
+  <string name="cat_navigation_rail_badge_gravity_top_end"
+      description="Label for the option that will cause badges to be positioned at the end, above the icon. [CHAR_LIMIT=50]">Top end</string>
+  <string name="cat_navigation_rail_badge_gravity_top_start"
+      description="Label for the option that will cause badges to be positioned at the start, above the icon. [CHAR_LIMIT=50]">Top start</string>
+  <string name="cat_navigation_rail_badge_gravity_bottom_end"
+      description="Label for the option that will cause badges to be positioned at the end, below the icon. [CHAR_LIMIT=50]">Bottom end</string>
+  <string name="cat_navigation_rail_badge_gravity_bottom_start"
+      description="Label for the option that will cause badges to be positioned at starting, below the icon. [CHAR_LIMIT=50]">Bottom start</string>
+
+  <string name="cat_navigation_rail_alarm"
+      description="Label for an alarm icon. [CHAR_LIMIT=50]">Alarm</string>
+  <string name="cat_navigation_rail_clock"
+      description="Label for a clock icon. [CHAR_LIMIT=50]">Clock</string>
+  <string name="cat_navigation_rail_timer"
+      description="Label for a timer icon. [CHAR_LIMIT=50]">Timer</string>
+  <string name="cat_navigation_rail_stopwatch"
+      description="Label for a stopwatch icon. [CHAR_LIMIT=50]">Stopwatch</string>
+
+  <string name="cat_navigation_rail_fab_content_desc"
+      description="Content description for a floating action button in the navigation rail.[CHAR_LIMIT=50]">Navigation Rail FAB</string>
+
+  <string name="cat_progress_indicator_title"
+      description="Title for the screen that showcases demonstrative usages of the MaterialProgressIndicator widget [CHAR LIMIT=NONE]">
+    Progress Indicator
+  </string>
+  <string name="cat_progress_indicator_demo_indeterminate_title"
+      description="Title of demo for the progress indicators in indeterminate mode [CHAR LIMIT=NONE]">
+    Indeterminate Progress Indicator Demo
+  </string>
+  <string name="cat_progress_indicator_demo_determinate_title"
+      description="Title of demo for the progress indicators in determinate mode [CHAR LIMIT=NONE]">
+    Determinate Progress Indicator Demo
+  </string>
+  <string name="cat_progress_indicator_demo_standalone_title"
+      description="Title of demo for other components using progress indicator standalone drawables [CHAR LIMIT=NONE]">
+    Standalone Drawable Progress Indicator Demo
+  </string>
+  <string name="cat_progress_indicator_description"
+      description="Body text describing the MaterialProgressIndicator widget within the design system [CHAR LIMIT=NONE]">
+    ProgressIndicator shows the progress of an undergoing process.
+    It can represent a determinate or indeterminate process in linear or circular form.
+  </string>
+  <string name="cat_progress_indicator_indeterminate_to_determinate_explanation"
+      description="Body text describing how progress indicators can go from indeterminate to determinate [CHAR LIMIT=NONE]">
+    As more information about a process becomes available, a progress indicator can switch from an
+    indeterminate to a determinate state. Update the progress below to see an example of this.
+    (Re-show the progress indicator to return to indeterminate mode.)
+  </string>
+
+  <!-- Strings for controlling the demos -->
+
+  <string name="cat_progress_indicator_hide"
+      description="Button label to hide progress indicators [CHAR LIMIT=NONE]">
+    Hide
+  </string>
+  <string name="cat_progress_indicator_show"
+      description="Button label to show progress indicators [CHAR LIMIT=NONE]">
+    Show
+  </string>
+  <string name="cat_progress_indicator_update"
+      description="Button label to update progress value on the progress indicators [CHAR LIMIT=NONE]">
+    Update
+  </string>
+  <string name="cat_progress_indicator_determinate_progress_prompt"
+      description="Prompt for a text field that will take a number between 0 and 100 and apply that as the progress for progress indicators [CHAR LIMIT=NONE]">
+    Enter an integer value from 0 to 100 to change progress in determinate mode:
+  </string>
+  <string name="cat_progress_indicator_deteriminate_progress_hint"
+      description="Hint for a text field that will take a number between 0 and 100 and apply that as the progress for progress indicators [CHAR LIMIT=NONE]">
+    Progress (0-100)
+  </string>
+  <string name="cat_progress_indicator_set_to_determinate_mode"
+      description="Set the displayed progress indicators to the determinate mode. [CHAR LIMIT=NONE]">
+    Determinate Mode
+  </string>
+
+  <!-- Descriptions of various examples of progress indicators -->
+
+  <string name="cat_progress_indicator_linear"
+      description="A linear progress progress indicator [CHAR LIMIT=NONE]">
+    Linear type
+  </string>
+  <string name="cat_progress_indicator_circular"
+      description="A circular progress progress indicator [CHAR LIMIT=NONE]">
+    Circular type
+  </string>
+
+  <string name="cat_progress_indicator_start_to_end_linear_single_color"
+      description="A start-to-end linear progress indicator with a single color [CHAR LIMIT=NONE]">
+    Single color start-to-end linear
+  </string>
+  <string name="cat_progress_indicator_rounded_end_to_start_linear_single_color"
+      description="An end-to-start linear progress indicator with rounded corners and a single color [CHAR LIMIT=NONE]">
+    Single color end-to-start linear with rounded corners
+  </string>
+  <string name="cat_progress_indicator_left_to_right_linear_multiple_colors_anchored_top"
+      description="A left-to-right linear progress indicator anchoring at the top edge with multiple colors [CHAR LIMIT=NONE]">
+    Multiple color left-to-right linear, anchoring at the top edge
+  </string>
+  <string name="cat_progress_indicator_right_to_left_linear_multiple_colors_anchored_bottom"
+      description="A right-to-left linear progress indicator anchoring at the bottom edge with multiple colors [CHAR LIMIT=NONE]">
+    Multiple color right-to-left linear, anchoring at the bottom edge
+  </string>
+  <string name="cat_progress_indicator_right_to_left_linear_multiple_colors_anchored_bottom_contiguous_animation"
+      description="A right-to-left linear progress indicator anchoring at the bottom edge with multiple colors and contiguous animation [CHAR LIMIT=NONE]">
+    Multiple color right-to-left linear with contiguous animation, anchoring at the bottom edge
+  </string>
+
+  <string name="cat_progress_indicator_clockwise_circular_single_color"
+      description="A clockwise circular progress indicator with a single color [CHAR LIMIT=NONE]">
+    Single color clockwise circular
+  </string>
+  <string name="cat_progress_indicator_rounded_counterclockwise_circular_single_color"
+      description="A counterclockwise circular progress indicator with rounded corners and a single color [CHAR LIMIT=NONE]">
+    Single color counter-clockwise circular with rounded corners
+  </string>
+  <string name="cat_progress_indicator_clockwise_circular_multiple_colors_anchored_outer"
+      description="A clockwise circular progress indicator with multiple colors anchoring at the outer edge [CHAR LIMIT=NONE]">
+    Multiple color clockwise circular, anchoring at the outer edge
+  </string>
+  <string name="cat_progress_indicator_clockwise_circular_multiple_colors_anchored_inner"
+      description="A clockwise circular progress indicator with multiple colors anchoring at the inner edge [CHAR LIMIT=NONE]">
+    Multiple color clockwise circular, anchoring at the inner edge
+  </string>
+
+  <string name="cat_progress_indicator_standalone_indeterminate_chip"
+      description="An example of using progress indicator drawable as chip icon [CHAR LIMIT=NONE]">
+    Indeterminate Chip
+  </string>
+  <string name="cat_progress_indicator_standalone_indeterminate_button"
+      description="An example of using progress indicator drawable as button icon [CHAR LIMIT=NONE]">
+    Indeterminate Button
+  </string>
+  <string name="cat_progress_indicator_standalone_switch_label"
+      description="A material switch to toggle progress indicator drawable on chip [CHAR LIMIT=NONE]">
+    Show Icon
+  </string>
+
+
+  <string name="cat_radiobutton_title">Radio Button</string>
+  <string name="cat_radiobutton_description">
+    The RadioButton provides a clickable element, usually part of a RadioButtonGroup. Within a single RadioGroup, only 1 RadioButton can be selected.</string>
+  <string name="cat_radiobutton_color_guide">
+    RadioButton elements respond to changes in colorSecondary.
+    They cannot be deselected by a direct click.</string>
+  <string name="cat_radiobutton_disabled_guide">RadioButton elements that are disabled cannot be interacted with and will appear faded.</string>
+  <string name="cat_radiobutton_enabled">Enabled</string>
+  <string name="cat_radiobutton_disabled">Disabled</string>
+
+  <string name="cat_searchbar_title"
+      description="Title for the search bar [CHAR_LIMIT=40]">Search</string>
+  <string name="cat_searchbar_description"
+      description="Search bar description [CHAR_LIMIT=NONE]">
+    This floating search field component allows for product-specific branding,
+    while also providing a surface for additional navigation and menu icons.
+  </string>
+
+  <string name="cat_searchbar_menu_cast_title"
+      description="Cast screen title [CHAR_LIMIT=40]">Cast Screen</string>
+  <string name="cat_searchbar_menu_settings_title"
+      description="Settings title [CHAR_LIMIT=40]">Settings</string>
+  <string name="cat_searchbar_product_title"
+      description="Product lookup view title [CHAR_LIMIT=40]">Google Product</string>
+  <string name="cat_searchbar_hint" tools:ignore="TypographyQuotes"
+      description="Search bar hint [CHAR_LIMIT=40]">Enter text to search"</string>
+  <string name="cat_searchbar_lorem_ipsum" translatable="false">
+    \t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+    \n\n\t\tSuspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.
+    \n\n\t\tSed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.
+    \n\n\t\tAenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.
+    \n\n\t\tPhasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+  </string>
+  <string name="cat_searchbar_lorem_ipsum_1" translatable="false">
+    \t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+  </string>
+  <string name="cat_searchbar_lorem_ipsum_2" translatable="false">
+    \t\tSuspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.
+  </string>
+  <string name="cat_searchbar_lorem_ipsum_3" translatable="false">
+    \t\tSed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.
+  </string>
+  <string name="cat_searchbar_lorem_ipsum_4" translatable="false">
+    \t\tAenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.
+  </string>
+  <string name="cat_searchbar_lorem_ipsum_5" translatable="false">
+    \t\tPhasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+  </string>
+  <string name="cat_searchview_menu_mic_title"
+      description="Title for searching using spoken words.[CHAR_LIMIT=40]">Voice Search</string>
+
+  <string name="cat_searchview_suggestion_section_title_yesterday"
+      description="Title for yesterday suggestion section [CHAR_LIMIT=40]">YESTERDAY</string>
+  <string name="cat_searchview_suggestion_section_title_this_week"
+      description="Title for this week suggestion section [CHAR_LIMIT=40]">THIS WEEK</string>
+
+  <string name="cat_searchbar_tabs_label_explore"
+      description="Title for explore tab.[CHAR_LIMIT=40]">Explore</string>
+  <string name="cat_searchbar_tabs_label_flights"
+      description="Title for flights tab.[CHAR_LIMIT=40]">Flights</string>
+  <string name="cat_searchbar_tabs_label_trips"
+      description="Title for trips tab.[CHAR_LIMIT=40]">Trips</string>
+  <string name="cat_searchbar_recycler_title"
+      description="Title for recycler view demo.[CHAR_LIMIT=100]">RecyclerView Demo</string>
+  <string name="cat_searchbar_recycler_item_title_prefix"
+      description="Title for recycler item.[CHAR_LIMIT=40]">Message</string>
+
+  <string name="cat_searchbar_contextual_toolbar_menu_select_all_title"
+      description="Title for select all menu option.[CHAR_LIMIT=40]">Select All</string>
+
+  <string name="cat_searchbar_nav_drawer_header_image_description"
+      description="Description about navigation drawer header.[CHAR_LIMIT=NONE]">Navigation Drawer Header Image</string>
+  <string name="cat_searchbar_nav_drawer_avatar_image_description"
+      description="Description about avatar image.[CHAR_LIMIT=NONE]">Avatar Image</string>
+  <string name="cat_searchbar_show_nav_drawer_content_description"
+      description="Description about show navigation drawer option.[CHAR_LIMIT=NONE]">Show navigation drawer</string>
+  <string name="cat_searchbar_hide_nav_drawer_content_description"
+      description="Description about hide navigation drawer option.[CHAR_LIMIT=NONE]">Hide navigation drawer</string>
+  <string name="cat_searchbar_nav_drawer_user"
+      description="Label for username display text.[CHAR_LIMIT=NONE]">User</string>
+  <string name="cat_searchbar_nav_drawer_email" translatable="false">jdoe@no.where</string>
+
+
+  <string name="cat_toc_shape_theming">Shape Theming</string>
+  <string name="cat_shape_theming_title">Shape Theming</string>
+  <string name="cat_shape_theming_description">
+    Material surfaces can be displayed in different shapes. Shapes direct attention, identify
+    components, communicate state, and express brand. Shape Theming provides a simple way to theme
+    shapes throughout an app.
+  </string>
+
+  <string name="cat_shape_theming_dialog_title">Title</string>
+  <string name="cat_shape_theming_dialog_message">Message</string>
+  <string name="cat_shape_theming_dialog_ok">OK</string>
+
+  <string name="cat_shape_theming_crane_demo_title">Crane Demo</string>
+  <string name="cat_shape_theming_fortnightly_demo_title">Fortnightly Demo</string>
+  <string name="cat_shape_theming_shrine_demo_title">Shrine Demo</string>
+  <string name="cat_shape_theming_placeholder">Shape theming demo coming soon...</string>
+
+  <string name="cat_shape_theming_chip_text">Shaped Chip</string>
+  <string name="cat_shape_theming_card_text">This is a shaped card.</string>
+  <string name="cat_shape_theming_button_text">Shaped Button</string>
+
+  <string name="cat_shape_theming_textfield_hint_outlined">Shaped outlined text field</string>
+  <string name="cat_shape_theming_textfield_hint_outlined_dense">Shaped dense outlined text field</string>
+  <string name="cat_shape_theming_textfield_hint_filled">Shaped filled text field</string>
+  <string name="cat_shape_theming_textfield_hint_filled_dense">Shaped dense filled text field</string>
+  <string name="cat_shape_theming_bottomsheet_title">This is a shaped bottomsheet.</string>
+
+  <string name="cat_sidesheet_title" description="Title of the Side Sheet Catalog demo. The term Side Sheet is a product term. [CHAR_LIMIT=NONE]">Side Sheet</string>
+  <string name="cat_sidesheet_description" description="Description of the Side Sheet Catalog Demo. The term Side Sheet is a product term. [CHAR_LIMIT=NONE]">
+    Displays a demo of Side Sheets.
+  </string>
+  <string name="cat_sidesheet_switch_text" description="Label of switch that enables and disables fullscreen mode. [CHAR_LIMIT=NONE]">
+    fullscreen mode
+  </string>
+  <string name="cat_sidesheet_expansion_switch_text" description="Label of switch that restricts and unrestricts sheet expansion. [CHAR_LIMIT=NONE]">
+    restrict expansion
+  </string>
+
+  <string name="cat_sidesheet_state_collapsed" translatable="false">
+    STATE_COLLAPSED
+  </string>
+  <string name="cat_sidesheet_state_dragging" translatable="false">
+    STATE_DRAGGING
+  </string>
+  <string name="cat_sidesheet_state_settling" translatable="false">
+    STATE_SETTLING
+  </string>
+  <string name="cat_sidesheet_state_expanded" translatable="false">
+    STATE_EXPANDED
+  </string>
+
+  <string name="cat_sidesheet_slide_offset_text" description="Text that describes the slide offset value. [CHAR_LIMIT=NONE]">Slide offset is %f</string>
+  <string name="cat_sidesheet_button_label_enabled" description="Label of button when enabled. [CHAR_LIMIT=NONE]">Enabled</string>
+  <string name="cat_sidesheet_button_label_disabled" description="Label of button when disabled. [CHAR_LIMIT=NONE]">Disabled</string>
+  <string name="cat_sidesheet_button_clicked" description="Text shown when the button is clicked. [CHAR_LIMIT=NONE]">Button clicked</string>
+
+  <string name="cat_sidesheet_standard_title" description="Title of the standard side sheet. [CHAR_LIMIT=NONE]">
+    Standard Side Sheet
+  </string>
+  <string name="cat_sidesheet_standard_button_show_text" description="Label of button which shows the standard side sheet. [CHAR_LIMIT=NONE]">
+    Show Standard Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_standard_detached_title" description="Title of the detached standard side sheet. [CHAR_LIMIT=NONE]">
+    Detached Standard Side Sheet
+  </string>
+  <string name="cat_sidesheet_standard_detached_button_show_text" description="Label of button which shows the detached standard side sheet. [CHAR_LIMIT=NONE]">
+    Show Detached Standard Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_standard_vertically_scrolling_button_show_text" description="Label of button which shows the standard side sheet. [CHAR_LIMIT=NONE]">
+    Show Vertically Scrolling Standard Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_modal_title" description="Title of the modal side sheet. [CHAR_LIMIT=NONE]">
+    Modal Side Sheet
+  </string>
+  <string name="cat_sidesheet_modal_button_show_text" description="Label of button which shows the modal side sheet. [CHAR_LIMIT=NONE]">
+    Show Modal Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_modal_detached_title" description="Title of the detached modal side sheet. [CHAR_LIMIT=NONE]">
+    Detached Modal Side Sheet
+  </string>
+  <string name="cat_sidesheet_modal_detached_button_show_text" description="Label of button which shows the detached modal side sheet. [CHAR_LIMIT=NONE]">
+    Show Detached Modal Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_coplanar_title" description="Title of the coplanar side sheet. [CHAR_LIMIT=NONE]">
+    Coplanar Side Sheet
+  </string>
+  <string name="cat_sidesheet_coplanar_button_show_text" description="Label of button which shows the modal side sheet. [CHAR_LIMIT=NONE]">
+    Show Coplanar Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_coplanar_detached_title" description="Title of the detached coplanar side sheet. [CHAR_LIMIT=NONE]">
+    Detached Coplanar Side Sheet
+  </string>
+  <string name="cat_sidesheet_coplanar_detached_button_show_text" description="Label of button which shows the detached coplanar side sheet. [CHAR_LIMIT=NONE]">
+    Show Detached Coplanar Side Sheet
+  </string>
+
+  <string name="cat_sidesheet_close_button_content_desc" description="Content description for the button to hide the side sheet. [CHAR_LIMIT=NONE]">
+    Close sheet
+  </string>
+
+  <string name="cat_sidesheet_filler_text" translatable="false">
+    \t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+    \n\n\t\tSuspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.
+    \n\n\t\tSed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.
+    \n\n\t\tAenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.
+    \n\n\t\tPhasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+  </string>
+
+  <string name="cat_slider_title" description="Title for the screen that showcases demonstrative usages of the Slider widget [CHAR LIMIT=NONE]">Slider</string>
+  <string name="cat_slider_demo_continuous_title" description="Title for the continuous Slider widget demo [CHAR LIMIT=NONE]">Continuous Slider demo</string>
+  <string name="cat_slider_demo_discrete_title" description="Title for the discrete Slider widget demo [CHAR LIMIT=NONE]">Discrete Slider demo</string>
+  <string name="cat_slider_demo_scroll_container_title" description="Title for the Slider inside scrolling container demo [CHAR LIMIT=NONE]">Slider in scrolling container demo</string>
+  <string name="cat_slider_demo_label_behavior_title" description="Tile for the Slider with different label behaviors demo [CHAR LIMIT=NONE]">Slider label behavior demo</string>
+
+  <string name="cat_slider_description" description="Body text describing the Slider widget within the design system [CHAR LIMIT=NONE]">
+    Sliders let users select from a range of values by moving the slider thumb.
+    Sliders are ideal components for adjusting settings that reflect intensity levels, such as volume, brightness, or color saturation.
+    Sliders may have icons on both ends of the bar that reflect the value intensity. Place the smallest value for the slider range on the left and the largest value on the right.
+    Continuous sliders allow users to select a value along a subjective range. They do not require a specific value to make adjustments, although they may, in some instances, offer an editable numeric value.
+    Discrete sliders allow users to select a specific value from a range.
+  </string>
+
+  <string name="cat_slider_enabled" description="">Enabled</string>
+  <string name="cat_slider_set" description="The label for a set button [CHAR LIMIT=NONE]">Set</string>
+  <string name="cat_slider_title_1" description="The title for the first demonstration slider [CHAR LIMIT=NONE]">This one goes to eleven</string>
+  <string name="cat_slider_title_2" description="The title for a demonstration slider [CHAR LIMIT=NONE]">From 100 to 1000</string>
+  <string name="cat_slider_title_3" description="The title for a demonstration slider [CHAR LIMIT=NONE]">Negative numbers!</string>
+  <string name="cat_slider_title_4" description="The title for a demonstration slider [CHAR LIMIT=NONE]">With a label formatter</string>
+  <string name="cat_slider_title_5" description="The title for a demonstration slider [CHAR LIMIT=NONE]">I can have decimal numbers?</string>
+  <string name="cat_slider_title_6" description="The title for a demonstration slider [CHAR LIMIT=NONE]">Without tick marks</string>
+  <string name="cat_slider_start_touch_description" description="Indicates the slider is now being touched [CHAR LIMIT=NONE]">Slider started being touched</string>
+  <string name="cat_slider_stop_touch_description" description="Indicates the slider stopped being touched [CHAR LIMIT=NONE]">Slider stopped being touched</string>
+  <string name="cat_slider_label_floating" description="The title for the demonstration slider with floating labels [CHAR LIMIT=NONE]">This one has floating labels</string>
+  <string name="cat_slider_label_within_bounds" description="The title for the demonstration slider with labels within bounds [CHAR LIMIT=NONE]">This one has labels within bounds</string>
+  <string name="cat_slider_label_gone" description="The title for the demonstration slider with gone labels [CHAR LIMIT=NONE]">This one shows no labels</string>
+  <string name="cat_slider_label_visible" description="The title for the first demonstration slider [CHAR LIMIT=NONE]">This one always shows labels</string>
+
+
+
+  <string name="cat_switch_title"
+      description="Title of demo for the component Switch. [CHAR LIMIT=NONE]">
+    Switch
+  </string>
+  <string name="cat_switch_description"
+      description="The description of demo for the component Switch. [CHAR LIMIT=NONE]">
+    The Switch provides a single element that toggles between two states.
+  </string>
+  <string name="cat_switch_color_guide"
+      description="The description of how switches look like when enabled. [CHAR LIMIT=NONE]">
+    Switch elements respond to changes in colorSecondary
+  </string>
+  <string name="cat_switch_disabled_guide"
+      description="The description of how switches look like when disabled. [CHAR LIMIT=NONE]">
+    Switch elements that are disabled cannot be interacted with and will appear faded.
+  </string>
+  <string name="cat_switch_enabled"
+      description="The label of enabled switches. [CHAR LIMIT=NONE]">
+    Enabled
+  </string>
+  <string name="cat_switch_disabled"
+      description="The label of disabled switches. [CHAR LIMIT=NONE]">
+    Disabled
+  </string>
+  <string name="cat_switch_toggleable_description"
+      description="The label explaining the function of a switch which toggles the state of enabling of the example switches. [CHAR LIMIT=NONE]">
+    Turn this switch On to control the enabled state of the switches below.
+  </string>
+  <string name="cat_switch_toggle"
+      description="The label of example switches. [CHAR LIMIT=NONE]">
+    Controlled by a switch
+  </string>
+  <string name="cat_switch_deprecated"
+      description="The title of the section that shows deprecated SwitchMaterial. [CHAR LIMIT=NONE]">
+    Deprecated design of switches (SwitchMaterial).
+  </string>
+
+
+
+  <string name="cat_tabs_title">Tabs</string>
+  <string name="cat_tabs_description">
+    Tabs enable content organization at a high level, such as switching between views, data sets, or
+    functional aspects of an app.\n\nPresent tabs as a single row above their associated content.
+    Tab labels should succinctly describe the content within.\n\nTabs allow navigation between
+    different top-level groups of content, such as different sections of a newspaper, different
+    music genres, or different types of documents.
+  </string>
+  <string name="cat_tab_item_label">Tab %d</string>
+  <string name="cat_tab_item_content">Swipe here - Tab %d</string>
+  <string name="cat_tabs_icon_switch_label">Show icons</string>
+  <string name="cat_tabs_labels_switch_label">Show labels</string>
+  <string name="cat_tabs_gravity_selector_label">Gravity</string>
+  <string name="cat_tabs_animation_mode_selector_label">Animation mode</string>
+  <string name="cat_tabs_gravity_start">Start</string>
+  <string name="cat_tabs_gravity_fill">Fill</string>
+  <string name="cat_tabs_gravity_center">Center</string>
+  <string name="cat_tabs_animation_mode_linear">Linear</string>
+  <string name="cat_tabs_animation_mode_elastic">Elastic</string>
+  <string name="cat_tabs_animation_mode_fade">Fade</string>
+  <string name="cat_tabs_inline_switch_label">Inline</string>
+  <string name="cat_tabs_full_width_switch_label">Full-width Indicator</string>
+  <string name="cat_tabs_indicator_spinner_label">Indicator</string>
+  <string name="cat_tabs_legacy_tabs_label">Legacy Tabs</string>
+  <string name="cat_tabs_material_tabs_label">Material Tabs</string>
+  <string name="cat_tabs_secondary_tabs_label">Material Tabs (Secondary)</string>
+  <string name="cat_tabs_add_tab_button_label">Add Tab</string>
+  <string name="cat_tabs_remove_tab_button_label">Remove Tab</string>
+  <string name="cat_tabs_remove_first_tab_button_label">Remove First Tab</string>
+  <string name="cat_tabs_remove_last_tab_button_label">Remove Last Tab</string>
+  <string name="cat_tabs_controllable_demo_title">Controllable Tabs Demo</string>
+  <string name="cat_tabs_scrollable_demo_title">Scrollable Tabs Demo</string>
+  <string name="cat_tabs_auto_demo_title">Auto Tabs Demo</string>
+  <string name="cat_tabs_auto_scrollable_explanation">
+    Tabs in \"auto\" mode behave like fixed tabs with tabGravity = \"center\" when the tabs are less
+    wide than the screen, and behave like scrollable tabs when the tabs are wider than the screen.
+  </string>
+
+  <!-- Selected indicator names -->
+  <string name="cat_tabs_selected_indicator_line_bottom">Line (bottom)</string>
+  <string name="cat_tabs_selected_indicator_line_top">Line (top)</string>
+  <string name="cat_tabs_selected_indicator_line_center">Line (center)</string>
+  <string name="cat_tabs_selected_indicator_pill">Pill</string>
+  <string name="cat_tabs_selected_indicator_oval">Oval</string>
+  <string name="cat_tabs_selected_indicator_box">Box</string>
+  <string name="cat_tabs_selected_indicator_rounded_line">Rounded line</string>
+
+  <!-- Scrollable tab labels -->
+  <string name="cat_tabs_label_all">All</string>
+  <string name="cat_tabs_label_shopping">Shopping</string>
+  <string name="cat_tabs_label_news">News</string>
+  <string name="cat_tabs_label_maps">Maps</string>
+  <string name="cat_tabs_label_images">Images</string>
+  <string name="cat_tabs_label_updates">Updates</string>
+  <string name="cat_tabs_label_settings">Settings</string>
+  <string name="cat_tabs_label_plugins">Plugins</string>
+  <string name="cat_tabs_label_more">More</string>
+
+  <!-- Badge increment button label -->
+  <string name="cat_tabs_increment_badge_number" description="The title of a button to increment the notification number. [CHAR_LIMIT=20]">+Badge number</string>
+
+  <string name="cat_tabs_badge_gravity_spinner_label">Badge gravity</string>
+  <string name="cat_tabs_badge_gravity_top_end">Top end</string>
+  <string name="cat_tabs_badge_gravity_top_start">Top start</string>
+  <string name="cat_tabs_badge_gravity_bottom_end">Bottom end</string>
+  <string name="cat_tabs_badge_gravity_bottom_start">Bottom start</string>
+
+  <string name="cat_textfield_title" translatable="false">Text Field</string>
+  <string name="cat_textfield_filled_demo_title" translatable="false">Filled Text Field Demo</string>
+  <string name="cat_textfield_filled_icons_demo_title" translatable="false">Filled Icons Text Field Demo</string>
+  <string name="cat_textfield_exposed_dropdown_menu_demo_title" translatable="false">Exposed Dropdown Menu Demo</string>
+  <string name="cat_textfield_outlined_demo_title" translatable="false">Outlined Text Field Demo</string>
+  <string name="cat_textfield_outlined_icons_demo_title" translatable="false">Outlined Icons Text Field Demo</string>
+  <string name="cat_textfield_prefix_suffix_demo_title" translatable="false">Prefix and Suffix Text Field Demo</string>
+  <string name="cat_textfield_legacy_demo_title" translatable="false">Legacy Text Field Demo</string>
+  <string name="cat_textfield_description" translatable="false">
+    Text fields allow users to input, edit, and select text. Text fields typically reside in forms
+    but can appear in other places, like dialog boxes and search.
+  </string>
+
+  <string name="cat_textfield_filled_helper_text" translatable="false">Filled text field</string>
+  <string name="cat_textfield_filled_dense_helper_text" translatable="false">Dense filled text field</string>
+  <string name="cat_textfield_filled_dense_password_helper_text" translatable="false">
+    Dense filled password text field
+  </string>
+  <string name="cat_textfield_filled_start_icon_helper_text" translatable="false">Filled start icon text field</string>
+  <string name="cat_textfield_filled_start_end_icons_helper_text" translatable="false">Filled start and end icons text field</string>
+  <string name="cat_textfield_filled_clear_button_helper_text" translatable="false">Filled clear button text field</string>
+  <string name="cat_textfield_filled_custom_end_icon_helper_text" translatable="false">Filled custom end icon text field</string>
+  <string name="cat_textfield_filled_exposed_dropdown_helper_text" translatable="false">Filled exposed dropdown menu</string>
+  <string name="cat_textfield_filled_editable_exposed_dropdown_helper_text" translatable="false">Filled editable exposed dropdown menu</string>
+  <string name="cat_textfield_legacy_helper_text" translatable="false">Legacy text field</string>
+  <string name="cat_textfield_outlined_helper_text" translatable="false">Outlined text field</string>
+  <string name="cat_textfield_outlined_dense_helper_text" translatable="false">Dense outlined text field</string>
+  <string name="cat_textfield_outlined_dense_password_helper_text" translatable="false">
+    Outlined filled password text field
+  </string>
+  <string name="cat_textfield_outlined_start_icon_helper_text" translatable="false">Outlined start icon text field</string>
+  <string name="cat_textfield_outlined_start_end_icons_helper_text" translatable="false">Outlined start and end icons text field</string>
+  <string name="cat_textfield_outlined_clear_button_helper_text" translatable="false">Outlined clear button text field</string>
+  <string name="cat_textfield_outlined_custom_end_icon_helper_text" translatable="false">Outlined custom end icon text field</string>
+  <string name="cat_textfield_custom_end_icon_content_description" translatable="false">Custom end icon</string>
+  <string name="cat_textfield_custom_start_icon_content_description" translatable="false">Custom start icon</string>
+  <string name="cat_textfield_outlined_exposed_dropdown_helper_text" translatable="false">Outlined exposed dropdown menu</string>
+  <string name="cat_textfield_outlined_editable_exposed_dropdown_helper_text" translatable="false">Outlined editable exposed dropdown menu</string>
+
+  <string name="cat_textfield_prefix" translatable="false">$</string>
+  <string name="cat_textfield_suffix" translatable="false">/100</string>
+  <string name="cat_textfield_outlined_prefix_helper_text" translatable="false">Outlined text field with prefix</string>
+  <string name="cat_textfield_outlined_prefix_icon_helper_text" translatable="false">Outlined text field with prefix and icon</string>
+  <string name="cat_textfield_outlined_suffix_helper_text" translatable="false">Outlined text field with suffix</string>
+  <string name="cat_textfield_outlined_suffix_icon_helper_text" translatable="false">Outlined text field with suffix and icon</string>
+  <string name="cat_textfield_filled_prefix_helper_text" translatable="false">Filled text field with prefix</string>
+  <string name="cat_textfield_filled_prefix_icon_helper_text" translatable="false">Filled text field with prefix and icon</string>
+  <string name="cat_textfield_filled_suffix_helper_text" translatable="false">Filled text field with suffix</string>
+  <string name="cat_textfield_filled_suffix_icon_helper_text" translatable="false">Filled text field with suffix and icon</string>
+
+  <string name="cat_textfield_customize_section_title" translatable="false">Customize text fields</string>
+  <string name="cat_textfield_customize_section_description" translatable="false">
+    Enter values below to customize the text fields above. Press the keyboard \"done\" button to update each field, or press the update button at the bottom to update all fields at once.
+  </string>
+  <string name="cat_textfield_label" translatable="false">Label</string>
+  <string name="cat_textfield_password" translatable="false">Password</string>
+  <string name="cat_textfield_error" translatable="false">Error</string>
+  <string name="cat_textfield_placeholder_text" translatable="false">Placeholder text</string>
+
+  <string name="cat_textfield_customize_counter_text" translatable="false">Update character counter max</string>
+  <string name="cat_textfield_customize_label_text" translatable="false">Update label text</string>
+  <string name="cat_textfield_customize_error_text" translatable="false">Update error text</string>
+  <string name="cat_textfield_customize_helper_text" translatable="false">Update helper text</string>
+  <string name="cat_textfield_customize_placeholder_text" translatable="false">Update placeholder text</string>
+
+  <string name="cat_textfield_null_input_error_text" translatable="false">Enter a value</string>
+  <string name="cat_textfield_show_error_text" translatable="false">Show error</string>
+  <string name="cat_textfield_hide_error_text" translatable="false">Hide error</string>
+
+  <string-array name="cat_textfield_exposed_dropdown_content" translatable="false">
+    <item>Item 1</item>
+    <item>Item 2</item>
+    <item>Item 3</item>
+    <item>Item 4</item>
+  </string-array>
+
+  <string name="cat_textfield_show_leading_icon" translatable="false">Show leading icon</string>
+  <string name="cat_textfield_hide_leading_icon" translatable="false">Hide leading icon</string>
+  <string name="cat_textfield_update_button" description="Button to update customizable fields.[CHAR_LIMIT=NONE]">Update</string>
+
+  <string name="cat_textfield_label_enabled" description="Label on a switch to enable text fields.[CHAR_LIMIT=10]">Text fields enabled</string>
+  <string name="cat_textfield_label_disabled" translatable="false">Text fields disabled</string>
+
+  <string name="cat_textfield_toast_update_button" description="Announcement for when update button is clicked.[CHAR_LIMIT=NONE]">Text fields updated.</string>
+  <string name="cat_textfield_toast_label_text" description="Announcement for when label is updated.[CHAR_LIMIT=NONE]">Labels updated.</string>
+  <string name="cat_textfield_toast_error_text" description="Announcement for when error text is updated.[CHAR_LIMIT=NONE]">Error messages updated.</string>
+  <string name="cat_textfield_toast_helper_text" description="Announcement for when helper text is updated.[CHAR_LIMIT=NONE]">Helper texts updated.</string>
+  <string name="cat_textfield_toast_counter_text" description="Announcement for when counter max is updated.[CHAR_LIMIT=NONE]">Max counters updated.</string>
+  <string name="cat_textfield_toast_placeholder_text" description="Announcement for when placeholder text is updated.[CHAR_LIMIT=NONE]">Placeholders updated.</string>
+  <string name="cat_textfield_toast_error_icon_click" description="Announcement for when error icon is clicked.[CHAR_LIMIT=NONE]">Error icon clicked.</string>
+  <string name="cat_textfield_toast_error_icon_long_click" description="Announcement for when error icon is long clicked.[CHAR_LIMIT=NONE]">Error icon long clicked.</string>
+
+  <!-- Title of the demo displaying pop-up pickers. [CHAR LIMIT=40] -->
+  <string name="cat_time_picker_demo_title">Time Picker</string>
+  <!-- Description of the catalog demo containing time picker. [CHAR LIMIT=128] -->
+  <string name="cat_time_picker_description">Time pickers allow users to choose times.</string>
+  <!-- Label for a time format toggle group [CHAR LIMIT=NONE] -->
+  <string name="time_format_label">Time format</string>
+  <!-- Label for an option to choose the 12-hour time format [CHAR LIMIT=16] -->
+  <string name="time_format_24">24H</string>
+  <!-- Label for an option to choose the 24-hour time format [CHAR LIMIT=16] -->
+  <string name="time_format_12">12H</string>
+  <!-- Label for an option to choose the same time format as the system [CHAR LIMIT=16] -->
+  <string name="time_format_system">System</string>
+  <!-- Label for a time input mode toggle group [CHAR LIMIT=NONE] -->
+  <string name="time_input_mode_label">Time input mode</string>
+  <!-- Label for an option to choose the default time picker's input mode [CHAR LIMIT=16] -->
+  <string name="time_input_mode_default">Default</string>
+  <!-- Label for an option to choose the clock mode as the time picker's input mode [CHAR LIMIT=16] -->
+  <string name="time_input_mode_clock">Clock</string>
+  <!-- Label for an option to choose the text input mode as the time picker's input mode [CHAR LIMIT=16] -->
+  <string name="time_input_mode_keyboard">Keyboard</string>
+  <!-- Text informing that a time input mode selection is not available for Framework Time Picker [CHAR LIMIT=NONE] -->
+  <string name="time_input_mode_note">(not available for Framework Time Picker)</string>
+  <!-- Label for a switch that allows the user to use the framework version of the time picker [CHAR LIMIT=128] -->
+  <string name="use_framework_dialog">Use Framework Time Picker</string>
+  <!-- Label for a button to choose the time [CHAR LIMIT=64] -->
+  <string name="select_time">Select Time</string>
+  <!-- The default time when entering the fragment [CHAR LIMIT=64] -->
+  <string name="default_time">12:00 AM</string>
+
+  <!-- A theme overlay for Material3 Alert Dialog panels with a center aligned title text and icon. -->
+  <style name="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+    <item name="materialAlertDialogTitlePanelStyle">@style/MaterialAlertDialog.Material3.Title.Panel.CenterStacked</item>
+    <item name="materialAlertDialogTitleIconStyle">@style/MaterialAlertDialog.Material3.Title.Icon.CenterStacked</item>
+    <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.Material3.Title.Text.CenterStacked</item>
+  </style>
+
+
+  <string name="cat_fab_title" translatable="false">Floating Action Button</string>
+  <string name="cat_fab_description" translatable="false">The Floating Action Button (FAB) represents your product\'s primary action, and should be considered a direct extension of its brand.</string>
+  <string name="cat_extended_fab_demo_title" translatable="false">Extended FAB</string>
+  <string name="cat_extended_fab_behavior_demo_title" translatable="false">Extended FAB Behavior</string>
+
+  <string name="extended_fab_label" translatable="false">Extended FAB</string>
+  <string name="cat_extended_fab_content_desc" translatable="false">Extended FAB</string>
+
+  <string name="hide_fabs_label" translatable="false">Hide FABs</string>
+  <string name="show_fabs_label" translatable="false">Show FABs</string>
+  <string name="rotate_fabs_label" translatable="false">Rotate FABs</string>
+  <string name="shrink_fabs_label" translatable="false">Shrink FABs</string>
+  <string name="extend_fabs_label" translatable="false">Extend FABs</string>
+
+  <string name="cat_fab_clicked" translatable="false">FAB clicked</string>
+  <string name="cat_extended_fab_clicked" translatable="false">Extended FAB clicked</string>
+
+  <!-- FAB strings -->
+  <string name="m3_primary_fab_label" translatable="false">Primary (default, small, large)</string>
+  <string name="m3_secondary_fab_label" translatable="false">Secondary (default, small, large)</string>
+  <string name="m3_tertiary_fab_label" translatable="false">Tertiary (default, small, large)</string>
+  <string name="m3_surface_fab_label" translatable="false">Surface (default, small, large)</string>
+  <string name="m3_theme_fab_label" translatable="false">Theme (default, small, large)</string>
+
+  <!-- Content descriptions for demo FABs. -->
+  <string name="m3_primary_fab_content_desc" translatable="false">Primary FAB</string>
+  <string name="m3_primary_small_fab_content_desc" translatable="false">Primary small FAB</string>
+  <string name="m3_primary_large_fab_content_desc" translatable="false">Primary large FAB</string>
+  <string name="m3_secondary_fab_content_desc" translatable="false">Secondary FAB</string>
+  <string name="m3_secondary_small_fab_content_desc" translatable="false">Secondary small FAB</string>
+  <string name="m3_secondary_large_fab_content_desc" translatable="false">Secondary large FAB</string>
+  <string name="m3_tertiary_fab_content_desc" translatable="false">Tertiary FAB</string>
+  <string name="m3_tertiary_small_fab_content_desc" translatable="false">Tertiary small FAB</string>
+  <string name="m3_tertiary_large_fab_content_desc" translatable="false">Tertiary large FAB</string>
+  <string name="m3_surface_fab_content_desc" translatable="false">Surface FAB</string>
+  <string name="m3_surface_small_fab_content_desc" translatable="false">Surface small FAB</string>
+  <string name="m3_surface_large_fab_content_desc" translatable="false">Surface large FAB</string>
+  <string name="m3_theme_fab_content_desc" translatable="false">Theme FAB</string>
+  <string name="m3_theme_small_fab_content_desc" translatable="false">Theme small FAB</string>
+  <string name="m3_theme_large_fab_content_desc" translatable="false">Theme large FAB</string>
+
+  <!-- Extended FAB strings -->
+  <string name="m3_primary_extended_fab_label" translatable="false">Primary</string>
+  <string name="m3_secondary_extended_fab_label" translatable="false">Secondary</string>
+  <string name="m3_tertiary_extended_fab_label" translatable="false">Tertiary</string>
+  <string name="m3_surface_extended_fab_label" translatable="false">Surface</string>
+
+  <!-- Title for the Top App Bar demo [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_title">Top App Bar</string>
+  <!-- Description for the Top App Bar demo [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_description">The Top App Bar, formerly known as the action bar in Android, is a special kind of toolbar that’s used for branding, navigation, search, and actions.</string>
+  <string name="cat_topappbar_scrolling_title" translatable="false">Scrolling Demo</string>
+  <string name="cat_topappbar_scrolling_transparent_title" translatable="false">Scrolling Demo (transparent status bar)</string>
+  <string name="cat_topappbar_collapsing_medium_title" translatable="false">Collapsing Demo (Medium)</string>
+  <string name="cat_topappbar_collapsing_large_title" translatable="false">Collapsing Demo (Large)</string>
+  <string name="cat_topappbar_toolbar_title" translatable="false">Toolbar Demo</string>
+  <string name="cat_topappbar_collapsing_multiline_title" translatable="false">Collapsing Demo (Multiline title)</string>
+  <string name="cat_topappbar_action_bar_title" translatable="false">Action Bar Demo</string>
+  <string name="cat_topappbar_dark_action_bar_title" translatable="false">Dark Action Bar Demo</string>
+  <string name="cat_topappbar_preferences_demo_title" translatable="false">Preferences Demo</string>
+  <string name="cat_topappbar_preferences_toolbar_title" translatable="false">Preferences</string>
+  <string name="cat_topappbar_lorem_ipsum" translatable="false">
+    \t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.
+    \n\n\t\tSuspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.
+    \n\n\t\tSed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.
+    \n\n\t\tAenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.
+    \n\n\t\tPhasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+  </string>
+  <!-- Title for the regular toolbar demo [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_main_demo_toolbar_title">Regular Title</string>
+  <!-- Title for the scrolling toolbar demo [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_scrolling_demo_toolbar_title">Scrolling Title</string>
+  <!-- Title for the collpasing toolbar demo [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_collapsing_demo_toolbar_title">Collapsing Title</string>
+  <!-- Label for a button in the menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_edit_menu_item_title">Edit</string>
+  <!-- Label for a button in the menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_favorite_menu_item_title">Favorite</string>
+  <!-- Label for a button in the menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_settings_menu_item_title">Settings</string>
+  <!-- Label for a button in the menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_help_and_feedback_menu_item_title">Help &amp; feedback</string>
+  <!-- Sample subitle [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_subtitle">Subtitle text</string>
+  <!-- The description of the AppBar component [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_description">
+    Action Bars within a Material Components theme will default to a titleTextStyle of
+    textAppearanceHeadline6 and a subtitleTextStyle of textAppearanceSubtitle1.
+    \n\nAdditionally, the height of Material Action Bars will be the same in portrait and landscape,
+    in order to avoid vertical space concerns with the above-mentioned text appearances.
+  </string>
+  <!-- Label for a button to toggle the action mode [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_toggle_action_mode_button">Toggle Action Mode</string>
+  <!-- Sample title for an action bar [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_action_mode_title">Action Mode Title</string>
+  <!-- Sample subtitle [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_action_mode_subtitle">Action Mode Subtitle</string>
+  <!-- sample action in a menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_action_mode_menu_item1">Action 1</string>
+  <!-- sample action in a menu [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_action_bar_action_mode_menu_item2">Action 2</string>
+  <!-- Sample long title [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_collapsing_multiline_demo_toolbar_title" description="Long title [CHAR_LIMIT=NONE]">This Collapsing Title is
+    extremely long and thus will be displayed in multiple lines.</string>
+  <!-- Label for a button to change the maximum number of lines [CHAR_LIMIT=32] -->
+  <string name="menu_max_lines">Max lines = <xliff:g id="max">%d</xliff:g></string>
+
+  <!-- Label for a button to show a toolbar configuration popup [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_toolbars">Configure Toolbars</string>
+  <!-- Label for a text field for configuring toolbar title [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_title_text">Title Text</string>
+  <!-- Label for a text field for configuring toolbar subtitle [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_subtitle_text">Subtitle Text</string>
+  <!-- Label for a check box for configuring toolbar title centering [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_centered">Centered</string>
+  <!-- Label for a check box for configuring toolbar navigation icon [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_navigation_icon">Navigation Icon</string>
+  <!-- Label for a check box for configuring toolbar menu items [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_menu_items">Menu Items</string>
+  <!-- Label for a button to apply toolbar configurations [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_apply_button">Apply</string>
+  <!-- Label for a button to cancel toolbar configurations [CHAR_LIMIT=NONE] -->
+  <string name="cat_topappbar_configure_cancel_button">Cancel</string>
+
+  <!-- Badge increment button label -->
+  <string name="cat_topappbar_increment_badge_number" description="The title of a button to increment the notification number. [CHAR_LIMIT=20]">+Badge number</string>
+  <!-- Badge increment button label -->
+  <string name="cat_topappbar_edit_menu_toggle" description="The title of a switch to toggle between showing and hiding an edit menu. [CHAR_LIMIT=NONE]">Show edit menu</string>
+
+  <string name="cat_topappbar_compress_effect_demo_title">Compress Effect Demo</string>
+  <string name="cat_topappbar_compress_toolbar_title">Compress Title</string>
+  <string name="cat_topappbar_compress_show_tabs_toggle_label">Show tabs</string>
+  <string name="cat_topappbar_compress_hide_tabs_toggle_label">Hide tabs</string>
+
+  <string name="cat_topappbar_tabs_label_all">All</string>
+  <string name="cat_topappbar_tabs_label_shopping">Shopping</string>
+  <string name="cat_topappbar_tabs_label_news">News</string>
+  <string name="cat_topappbar_tabs_label_maps">Maps</string>
+  <string name="cat_topappbar_tabs_label_images">Images</string>
+  <string name="cat_topappbar_tabs_label_updates">Updates</string>
+  <string name="cat_topappbar_tabs_label_settings">Settings</string>
+  <string name="cat_topappbar_tabs_label_plugins">Plugins</string>
+  <string name="cat_topappbar_tabs_label_more">More</string>
+
+
+
+  <string name="cat_toc_transition" tools:ignore="UnusedResources">Transition</string>
+  <string name="cat_transition_title">Transition</string>
+  <string name="cat_transition_description">
+    Transition choreography is a coordinated sequence of motion that maintains user focus as the interface adapts.
+  </string>
+
+  <string name="cat_transition_container_transform_activity_title">Container Transform (Activity)</string>
+
+  <string name="cat_transition_container_transform_fragment_title">Container Transform (Fragment)</string>
+  <string name="cat_transition_card_title">Title</string>
+  <string name="cat_transition_lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas.\n\n
+Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est.\n\n
+Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis.\n\n
+Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim."</string>
+  <string name="cat_transition_title_content_desc">Sample title</string>
+  <string name="cat_transition_body_content_desc">Sample body text</string>
+  <string name="cat_transition_image_content_desc">Sample header image</string>
+
+  <string name="cat_transition_container_transform_view_title">Container Transform (View)</string>
+
+  <string name="cat_transition_contact_card_sandra">Sandra Adams</string>
+  <string name="cat_transition_contact_card_charlie">Charlie Zhao</string>
+  <string name="cat_transition_contact_card_trevor">Trevor Hansen</string>
+  <string name="cat_transition_contact_card_david">David Park</string>
+  <string name="cat_transition_contact_card_compose">Compose New</string>
+
+  <string name="cat_transition_config_menu_item_title">Configure transition</string>
+  <string name="cat_transition_config_path_motion_title">Path motion</string>
+  <string name="cat_transition_config_path_motion_arc">Arc</string>
+  <string name="cat_transition_config_path_motion_linear">Linear</string>
+  <string name="cat_transition_config_enter_duration_title">Enter Duration</string>
+  <string name="cat_transition_config_return_duration_title">Return Duration</string>
+  <string name="cat_transition_config_interpolation_title">Interpolation</string>
+  <string name="cat_transition_config_default">Default</string>
+  <string name="cat_transition_config_fast_out_slow_in_title">FastOutSlowIn</string>
+  <string name="cat_transition_config_overshoot">Overshoot</string>
+  <string name="cat_transition_config_anticipate_overshoot">AnticipateOvershoot</string>
+  <string name="cat_transition_config_overshoot_tension_hint">Tension</string>
+  <string name="cat_transition_config_bounce">Bounce</string>
+  <string name="cat_transition_config_custom_interpolator_title">Custom cubic bezier</string>
+  <string name="cat_transition_config_custom_interpolator_desc">Custom (%1$.3f, %2$.3f, %3$.3f, %4$.3f)</string>
+  <string name="cat_transition_config_cubic_bezier_control_x1_hint">x1</string>
+  <string name="cat_transition_config_cubic_bezier_control_y1_hint">y1</string>
+  <string name="cat_transition_config_cubic_bezier_control_x2_hint">x2</string>
+  <string name="cat_transition_config_cubic_bezier_control_y2_hint">y2</string>
+  <string name="cat_transition_config_fade_mode_title">Fade mode</string>
+  <string name="cat_transition_config_fade_mode_in">In</string>
+  <string name="cat_transition_config_fade_mode_out">Out</string>
+  <string name="cat_transition_config_fade_mode_cross">Cross</string>
+  <string name="cat_transition_config_fade_mode_through">Through</string>
+  <string name="cat_transition_config_debug_title">Debug</string>
+  <string name="cat_transition_config_draw_debug_checkbox_desc">Draw debugging lines</string>
+  <string name="cat_transition_config_apply_button_text">Apply</string>
+  <string name="cat_transition_config_clear_button_text">Clear</string>
+
+  <string name="cat_transition_fade_through_title">Fade Through</string>
+  <string name="cat_transition_fade_through_menu_item_albums">Albums</string>
+  <string name="cat_transition_fade_through_menu_item_photos">Photos</string>
+  <string name="cat_transition_fade_through_menu_item_search">Search</string>
+  <string name="cat_transition_fade_through_photo_count">123 photos</string>
+
+  <string name="cat_transition_shared_axis_fragment_title">Shared Axis (Fragment)</string>
+  <string name="cat_transition_shared_axis_activity_title">Shared Axis (Activity)</string>
+  <string name="cat_transition_shared_axis_view_title">Shared Axis (View)</string>
+  <string name="cat_transition_shared_axis_back">Back</string>
+  <string name="cat_transition_shared_axis_next">Next</string>
+  <string name="cat_transition_shared_axis_x">X</string>
+  <string name="cat_transition_shared_axis_y">Y</string>
+  <string name="cat_transition_shared_axis_z">Z</string>
+  <string name="cat_transition_shared_axis_sign_in_greeting">Hi David Park</string>
+  <string name="cat_transition_shared_axis_sign_in_title">Sign in with your account</string>
+  <string name="cat_transition_shared_axis_sign_in_hint">Email or phone number</string>
+  <string name="cat_transition_shared_axis_sign_in_forgot_email">Forgot email?</string>
+  <string name="cat_transition_shared_axis_sign_in_create_account">Create account</string>
+  <string name="cat_transition_shared_axis_courses_title">Streamline your courses</string>
+  <string name="cat_transition_shared_axis_courses_caption">Bundled categories appear as groups in your feed. You can always change this later.</string>
+  <string name="cat_transition_shared_axis_courses_bundled">Bundled</string>
+  <string name="cat_transition_shared_axis_courses_unbundled">Shown individually</string>
+  <string name="cat_transition_shared_axis_courses_one"><![CDATA[Arts & Crafts]]></string>
+  <string name="cat_transition_shared_axis_courses_two">Business</string>
+  <string name="cat_transition_shared_axis_courses_three">Illustration</string>
+  <string name="cat_transition_shared_axis_courses_four">Design</string>
+  <string name="cat_transition_shared_axis_courses_five">Culinary</string>
+
+  <string name="cat_transition_fade_title">Fade</string>
+  <string name="cat_transition_fade_button_hide_fab">Hide FAB</string>
+  <string name="cat_transition_fade_button_show_fab">Show FAB</string>
+
+
+  <string name="cat_adaptive_title" description="Title of the Adaptive Catalog demo [CHAR_LIMIT=NONE]">Adaptive</string>
+  <string name="cat_adaptive_description" description="Description of the Adaptive Catalog demo [CHAR_LIMIT=NONE]">
+    Adaptive layouts adapt to differences inherent in devices, such as
+    increased screen space, to feel continuous and cohesive throughout the suite
+    of uniquely shaped devices.
+  </string>
+  <string name="cat_adaptive_fab_content_desc" description="Content description of the Floating Action Button [CHAR_LIMIT=NONE]">
+    Floating Action Button
+  </string>
+
+  <string name="cat_adaptive_nav_button" description="The navigation button of an adaptive layout. [CHAR_LIMIT=50]">
+    Expand/contract navigation bar
+  </string>
+  <string name="cat_adaptive_menu_page_1_title" description="The title of a page in a navigation bar item. [CHAR_LIMIT=50]">
+    Page 1
+  </string>
+  <string name="cat_adaptive_menu_page_2_title" description="The title of a page in a navigation bar item. [CHAR_LIMIT=50]">
+    Page 2
+  </string>
+  <string name="cat_adaptive_menu_page_3_title" description="The title of a page in a navigation bar item. [CHAR_LIMIT=50]">
+    Page 3
+  </string>
+  <string name="cat_adaptive_menu_page_4_title" description="The title of a page in a navigation bar item. [CHAR_LIMIT=50]">
+    Page 4
+  </string>
+  <string name="cat_adaptive_fab" description="The title of the floating action button. [CHAR_LIMIT=50]">
+    Floating action button
+  </string>
+  <string name="cat_adaptive_nav_fab_text" description="The title of the navigation bar's floating action button. [CHAR_LIMIT=50]">
+    Compose
+  </string>
+
+  <string name="cat_feed_title" description="Title of the Feed Catalog demo [CHAR_LIMIT=NONE]">
+    Feed Demo
+  </string>
+  <string name="cat_feed_fragment_title" description="Title of an element of the Feed fragment [CHAR_LIMIT=NONE]">
+    Title
+  </string>
+  <string name="cat_feed_fragment_subhead" description="Subhead of the Feed fragment [CHAR_LIMIT=NONE]">
+    Subhead
+  </string>
+  <string name="cat_feed_sample_image_content_desc" description="Description of a sample image in the Feed dmeo [CHAR_LIMIT=NONE]">
+    Sample image
+  </string>
+
+  <string name="cat_list_view_title" description="Title of the List View Catalog demo [CHAR_LIMIT=NONE]">
+    List View Demo
+  </string>
+  <string name="cat_list_view_inbox_title" description="Title of the inbox. [CHAR_LIMIT=NONE]">
+    Inbox
+  </string>
+  <string name="cat_list_view_email_text" description="The text of an wmail [CHAR_LIMIT=NONE]">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Fringilla est ullamcorper eget nulla facilisi etiam dignissim. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus a.
+    Nisi lacus sed viverra tellus in hac. Ridiculus mus mauris vitae ultricies leo integer malesuada.
+  </string>
+  <string name="cat_list_view_email_timestamp" description="The timestamp of an email. [CHAR_LIMIT=50]">
+    Now
+  </string>
+  <string name="cat_list_view_email_title" description="The title of an email. [CHAR_LIMIT=NONE]">
+    Email Title
+  </string>
+  <string name="cat_list_view_sender_title" description="The name of the sender of an email. [CHAR_LIMIT=NONE]">
+    John Doe
+  </string>
+  <string name="cat_list_view_menu_archive_button" description="Name of the archive email button. [CHAR_LIMIT=50]">
+    Archive
+  </string>
+  <string name="cat_list_view_menu_delete_button" description="Name of the detele email button. [CHAR_LIMIT=50]">
+    Delete
+  </string>
+  <string name="cat_list_view_menu_unread_button" description="Name of the mark as unread email button. [CHAR_LIMIT=50]">
+    Mark as unread
+  </string>
+
+  <string name="cat_hero_title" description="Title of the Hero Catalog demo [CHAR_LIMIT=NONE]">
+    Single View Hero Demo
+  </string>
+  <string name="cat_hero_fragment_title" description="Title of an element of the Hero fragment [CHAR_LIMIT=NONE]">
+    Title
+  </string>
+
+  <string name="cat_supporting_panel_title" description="Title of the Supporting Panel Catalog demo [CHAR_LIMIT=NONE]">
+    Supporting Panel Demo
+  </string>
+  <string name="cat_supporting_panel_fragment_title" description="Title of an element of the Supporting Panel fragment [CHAR_LIMIT=NONE]">
+    Title
+  </string>
+
+</resources>

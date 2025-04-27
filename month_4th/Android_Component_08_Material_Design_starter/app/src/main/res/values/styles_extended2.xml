@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GreenText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="GreenTextWithShadow2" parent="GreenText">
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <!--
+        GreenTextWithShodow parent=GreenText와 GreenText.Shadow는 동일하게 동작한다.
+        "." 을 사용해서 상속관계를 표현할 수 있다.
+    -->
+
+    <style name="GreenText.Shadow">
+        <item name="android:shadowColor">#FF0000</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+</resources>
